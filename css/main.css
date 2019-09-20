@@ -21,7 +21,7 @@ header {
 section {
     font-size: 18px;
     color: black;
-    
+    margin-left: 200px;
 }
 h1 {
 justify-content: left;
@@ -30,6 +30,7 @@ footer {
     font-size: 12px;
     background-color: darkolivegreen;
     color: ghostwhite;
+    max-width: 760px;
     padding: .5rem;
     text-align: center;
 }
