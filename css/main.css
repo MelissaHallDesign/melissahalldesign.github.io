@@ -33,4 +33,6 @@ footer {
     max-width: 760px;
     padding: .5rem;
     text-align: center;
+    margin-right: -100px;
+    margin-left: 200px;
 }
