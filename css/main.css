@@ -1,11 +1,13 @@
 img {
     width: 100px;
     border-radius: 3px;
-    box-shadow: 3px 3px 3px black;
+    box-shadow: 3px 3px 3px 3px grey;
     justify-content: right;
+    float: right;
   }
 header {
     font-size: 18px;
+    text-align: center;
     line-height: .5;
     max-width: 760px;
     background-color: darkolivegreen;
@@ -21,4 +23,11 @@ section {
 }
 h1 {
 justify-content: left;
+}
+footer {
+    font-size: 12px;
+    background-color: darkolivegreen;
+    color: ghostwhite;
+    padding: .5rem;
+    text-align: center;
 }
