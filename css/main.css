@@ -4,7 +4,8 @@ img {
     box-shadow: 3px 3px 3px 3px grey;
     justify-content: right;
     float: right;
-    margin-right: 400px;
+    margin-right: 450px;
+    margin-top: -50px;
   }
 header {
     font-size: 18px;
