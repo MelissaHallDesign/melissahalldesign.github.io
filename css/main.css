@@ -14,7 +14,8 @@ header {
     background-color: darkolivegreen;
     color: ghostwhite;
     padding: .5rem;
-    
+    margin-right: -100px;
+    margin-left: 100px;
 }
 
 section {
