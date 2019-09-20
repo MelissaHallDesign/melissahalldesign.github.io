@@ -11,6 +11,7 @@ header {
     text-align: center;
     line-height: .5;
     max-width: 760px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkolivegreen;
     color: ghostwhite;
     padding: .5rem;
@@ -20,6 +21,7 @@ header {
 
 section {
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     color: black;
     margin-left: 200px;
 }
@@ -28,6 +30,7 @@ justify-content: left;
 }
 footer {
     font-size: 12px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: darkolivegreen;
     color: ghostwhite;
     max-width: 760px;
