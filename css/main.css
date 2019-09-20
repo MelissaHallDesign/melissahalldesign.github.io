@@ -4,3 +4,18 @@
       border-radius: 3px;
     box-shadow: 3px 3px 3px black;
   }
+header {
+    font-size: 30px;
+    line-height: 2.5;
+    max-width: 760px;
+    background-color: darkolivegreen;
+    color: ghostwhite;
+    padding: 1.5rem;
+    
+}
+
+section {
+    font-size: 18px;
+    color: white;
+    
+}
