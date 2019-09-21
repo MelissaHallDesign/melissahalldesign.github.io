@@ -2,7 +2,7 @@ body {
     max-width: 760px;
     margin: 0 auto;
 }
-img {
+.img {
     width: 150px;
     border-radius: 3px;  
   }
