@@ -35,6 +35,10 @@
   <footer>
     &copy; 2019 | Melissa Hall | Utah | <a href="https://www.byui.edu/online">BYUI Online Learning</a>
   </footer>
+  <script>
+  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
+  document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
+  </script>
 </body>
 
 </html>
