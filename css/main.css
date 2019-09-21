@@ -35,6 +35,10 @@ footer {
     text-align: center;
     
 }
-a {
+a:link {
     color: white;
+}
+a {
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
 }
