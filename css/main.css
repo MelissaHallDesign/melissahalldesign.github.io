@@ -1,21 +1,24 @@
+body {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
 img {
     width: 150px;
     border-radius: 3px;
-    justify-content: right;
-    float: right;
-    margin-right: 450px;
-    margin-top: -50px;
+    
+    
+    
   }
 header {
     font-size: 18px;
     text-align: center;
     line-height: .5;
-    max-width: 760px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkolivegreen;
     color: ghostwhite;
     padding: .5rem;
-    margin-left: 240px;
+    
     
 }
 
@@ -23,19 +26,18 @@ section {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
-    margin-left: 240px;
+    
 }
 h1, h2 {
-justify-content: left;
+
 }
 footer {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkolivegreen;
     color: ghostwhite;
-    max-width: 760px;
+    
     padding: .5rem;
     text-align: center;
-    margin-right: -100px;
-    margin-left: 240px;
+    
 }
