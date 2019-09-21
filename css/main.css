@@ -35,10 +35,7 @@ footer {
     text-align: center;
     
 }
-a:link {
+a {
     color: white;
 }
-a {
-    border-bottom: 1px solid black;
-    padding-bottom: 5px;
-}
+
