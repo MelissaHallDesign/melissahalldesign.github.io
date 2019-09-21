@@ -35,7 +35,10 @@ footer {
     text-align: center;
     
 }
-a:hover, a:visited, a:link, a:active
+a:link, a:active {
+    color: white;
+}
+a:hover, a:visited
 {
 text-decoration: none;
 }
