@@ -16,7 +16,7 @@ header {
     width: 150px;
     border-radius: 3px; 
     justify-content: right; 
-    float: top;
+    float: right;
     box-shadow: 3px 3px 3px 3px white;
   }
 section {
