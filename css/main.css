@@ -14,7 +14,8 @@ header {
 }
 .img {
     width: 150px;
-    border-radius: 3px;  
+    border-radius: 3px; 
+    justify-content: left; 
   }
 section {
     font-size: 18px;
