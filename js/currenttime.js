@@ -13,4 +13,3 @@ function GetTime() {
     return CurTime
 }
 document.write(GetTime());
-document.write("");
