@@ -2,10 +2,7 @@ body {
     max-width: 760px;
     margin: 0 auto;
 }
-.img {
-    width: 150px;
-    border-radius: 3px;  
-  }
+
 header {
     font-size: 18px;
     text-align: center;
@@ -15,6 +12,10 @@ header {
     color: ghostwhite;
     padding: .5rem;
 }
+.img {
+    width: 150px;
+    border-radius: 3px;  
+  }
 section {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
