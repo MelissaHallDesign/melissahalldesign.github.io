@@ -1,4 +1,2 @@
-function currenttime() {
-    var x = new Date(document.lastModified);
-    document.getElementById("currenttime").innerHTML = x;
-  }
+const options = {time: 'numeric'};
+document.getElementById('currenttime').textContent = new Time().toLocaleTimeString('en-US', options);
