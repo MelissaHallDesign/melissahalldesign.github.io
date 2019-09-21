@@ -16,6 +16,7 @@ header {
     width: 150px;
     border-radius: 3px; 
     justify-content: right; 
+    float: right;
   }
 section {
     font-size: 18px;
