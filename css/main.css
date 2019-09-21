@@ -2,13 +2,9 @@ body {
     max-width: 760px;
     margin: 0 auto;
 }
-
 img {
     width: 150px;
-    border-radius: 3px;
-    
-    
-    
+    border-radius: 3px;  
   }
 header {
     font-size: 18px;
@@ -18,15 +14,11 @@ header {
     background-color: darkolivegreen;
     color: ghostwhite;
     padding: .5rem;
-    
-    
 }
-
 section {
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
-    
+    color: black; 
 }
 h1, h2 {
 
@@ -36,7 +28,6 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkolivegreen;
     color: ghostwhite;
-    
     padding: .5rem;
     text-align: center;
     
