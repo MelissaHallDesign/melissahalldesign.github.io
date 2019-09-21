@@ -18,7 +18,8 @@ header {
     border-radius: 3px; 
     justify-content: right; 
     float: right;
-    padding-right: 1rem;
+    padding-right: 3rem;
+    padding-bottom: 5rem;
   }
 section {
     font-size: 18px;
