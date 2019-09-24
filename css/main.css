@@ -8,7 +8,7 @@ header {
     border-radius: 15px 15px 15px 15px;
     text-align: center;
     line-height: .5;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Source Code Pro', sans-serif;
     background-color: darkolivegreen;
     color: ghostwhite;
     padding: .5rem;
@@ -21,9 +21,12 @@ header {
     padding-right: 3rem;
     padding-top: 0rem;
   }
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+}
 section {
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
     color: black; 
     padding: 20px;
 }
@@ -44,12 +47,4 @@ footer {
 
 #link1 {
     color:white
-    ;
 }
-
-font-family: 'Turret Road', cursive;
-font-family: 'Slabo 27px', serif;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Source Code Pro', monospace;
-font-family: 'EB Garamond', serif;
-font-family: 'Rajdhani', sans-serif;
