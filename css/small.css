@@ -4,8 +4,8 @@ body {
 }
 
 header {
-    font-size: 18px;
-    border-radius: 15px 15px 15px 15px;
+    font-size: 14px;
+    
     text-align: center;
     line-height: .5;
     font-family: 'Source Code Pro', sans-serif;
@@ -24,15 +24,15 @@ h2 {
     font-family: 'Rajdhani', sans-serif;
 }
 section {
-    font-size: 18px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     color: black; 
     padding: 20px;
 }
 
 footer {
-    font-size: 14px;
-    border-radius: 15px 15px 15px 15px;
+    font-size: 12px;
+    
     font-family: Arial, Helvetica, sans-serif;
     background-color: darkolivegreen;
     color: ghostwhite;
