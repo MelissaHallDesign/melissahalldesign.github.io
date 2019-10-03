@@ -1,8 +1,36 @@
 img {
-    width: 100px;
-    height: auto;
+    width: 150px;
 }
 body {
     max-width: 760px;
     margin: 0 auto;
+    background-color: #869bae;
+}
+h1 {
+    font-size: 40px;
+    font-family: 'Paytone One', sans-serif;
+    color: #343f4b;
+}
+nav ul {
+    background-color: #62929e;
+    color: #343f4b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style: none;
+    padding: 15px;
+}
+#linknav {
+    color: #343f4b;
+    text-decoration: none;
+    
+}
+#colorimg {
+    width: 200px;
+}   
+nav a:hover {
+    color: #7b4c53;
 }
