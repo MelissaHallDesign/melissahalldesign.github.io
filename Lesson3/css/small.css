@@ -1,7 +1,7 @@
 img {
     width: 100px;
     height: auto;
-    float: left;
+    display: flex;
     
 }
 header {
@@ -18,9 +18,18 @@ h1 {
     font-family: 'Paytone One', sans-serif;
     color: #343f4b;
 }
+#sectionh1 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: #343f4b;
+}
 nav ul {
-    background-color: #343f4b;
-    color: #869bae;
+    background-color: #7b4c53;
+    color: #343f4b;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -31,7 +40,7 @@ nav ul {
     padding: 15px;
 }
 #linknav {
-    color: #869bae;
+    color: #79b791;
     text-decoration: none;
     
 }
