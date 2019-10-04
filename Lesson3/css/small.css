@@ -1,5 +1,5 @@
 img {
-    width: 100px;
+    width: 760px;
     height: auto;
     display: flex;
     
@@ -39,22 +39,35 @@ p {
     padding: 15px;
     line-height: 30px;
 }
-nav ul {
+nav ul{
     background-color: #343f4b;
-    
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     list-style: none;
     padding: 15px;
+    border:1px solid transparent;
+    overflow: hidden;
+    
 }
 
 #linknav {
     color: #e59500;
     text-decoration: none;
+    border:1px solid transparent;
+    border-radius:0 0 0 0;
+    
+    
+}
+#linknav:hover {
+    background-color: #e59500;
+    color: #0d1321;
+    text-decoration: none;
+    padding: 15px;
+    list-style-type: none;
+    border-radius: 5px;
     
 }
 #colorimg {
