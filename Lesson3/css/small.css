@@ -1,10 +1,17 @@
 img {
-    width: 150px;
+    width: 100px;
+    height: auto;
+    float: left;
+    
+}
+header {
+    text-align: center;
 }
 body {
     max-width: 760px;
     margin: 0 auto;
-    background-color: #869bae;
+    background-color: #abd1b5;
+    
 }
 h1 {
     font-size: 40px;
@@ -12,8 +19,8 @@ h1 {
     color: #343f4b;
 }
 nav ul {
-    background-color: #62929e;
-    color: #343f4b;
+    background-color: #343f4b;
+    color: #869bae;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -24,13 +31,14 @@ nav ul {
     padding: 15px;
 }
 #linknav {
-    color: #343f4b;
+    color: #869bae;
     text-decoration: none;
     
 }
 #colorimg {
-    width: 200px;
+    width: 500px;
 }   
 nav a:hover {
-    color: #7b4c53;
+    color: #79b791;
+    align-items: center;
 }
