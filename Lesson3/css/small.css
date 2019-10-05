@@ -102,7 +102,7 @@ td {
     max-width: 760px;
     width: 100%;
 }
-#colorheading {
+#colorheading, #typeheading {
     width:16.67%;
 }
 #red {
