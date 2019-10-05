@@ -70,7 +70,7 @@ nav ul{
     max-width: 760px;
 }   
 
-footer {
+footer, #link1 {
     color: #e59500;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
