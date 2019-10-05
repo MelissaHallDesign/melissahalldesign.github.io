@@ -55,7 +55,7 @@ nav ul{
     
 }
 
-#linknav {
+#linknav1, #linknavc, #linknavta, #linknavty {
     color: #e59500;
     text-decoration: none;
     border:1px solid transparent;
