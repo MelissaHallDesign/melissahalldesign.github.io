@@ -61,7 +61,7 @@ nav ul{
     border:1px solid transparent;
     border-radius:0 0 0 0;
 }
-#linknav:hover {   
+#linknav1:hover, #linknavc:hover, #linknavta:hover, #linknavty:hover {   
     color: #721121;
     text-decoration: none;
     list-style-type: none;  
