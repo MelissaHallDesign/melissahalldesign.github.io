@@ -42,12 +42,13 @@ p {
 nav ul{
     background-color: #002642;
     display: flex;
-    justify-content: space-between;
+    height: 60px;
+    justify-content: space-around;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     list-style: none;
-    padding: 15px;
+    padding: 0;
     border:1px solid transparent;
     overflow: hidden;
     
@@ -65,7 +66,7 @@ nav ul{
     list-style-type: none;  
 }
 #colorimg {
-    width: 500px;
+    max-width: 760px;
 }   
 
 footer {
@@ -95,4 +96,32 @@ td {
     background-color: #e59500;
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#colortable {
+    max-width: 760px;
+    width: 100%;
+}
+#colorheading {
+    width:16.67%;
+}
+#red {
+    background-color: #721121;
+    width:16.67%;
+
+}
+#ltblue {
+    background-color: #002642;
+    width:16.67%;
+}
+#dkblue {
+    background-color: #0d1321;
+    width:16.67%;
+}
+#yellow {
+    background-color: #e59500;
+    width:16.67%;
+}
+#white {
+    background-color: #fafaff;
+    width:16.67%;
 }
