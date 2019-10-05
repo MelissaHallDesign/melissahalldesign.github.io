@@ -67,7 +67,8 @@ nav ul{
     list-style-type: none;  
 }
 #colorimg {
-    max-width: 760px;
+    max-width: 450px;
+    
 }   
 
 footer, #link1 {
@@ -82,11 +83,14 @@ table {
     max-width: 760px;
     
 }
+#colortable {
+    max-width: 450px;
+}
 th, td {
     padding: 7px 10px 10px 10px;
 }
 th {
-    font-size: 17px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: left;
     background-color: #002642;
@@ -98,31 +102,32 @@ td {
     font-size: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-#colortable {
-    max-width: 760px;
-    width: 100%;
+#colortd {
+    font-size: 12px;
 }
+
 #colorheading, #typeheading {
-    width:16.67%;
+   
+    width:10%;
 }
 #red {
     background-color: #721121;
-    width:16.67%;
+    width:10%;
 
 }
 #ltblue {
     background-color: #002642;
-    width:16.67%;
+    width:10%;
 }
 #dkblue {
     background-color: #0d1321;
-    width:16.67%;
+    width:10%;
 }
 #yellow {
     background-color: #e59500;
-    width:16.67%;
+    width:10%;
 }
 #white {
     background-color: #fafaff;
-    width:16.67%;
+    width:10%;
 }

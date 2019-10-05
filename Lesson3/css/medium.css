@@ -20,5 +20,43 @@
 		overflow: hidden;
 		
 	}
-    
+	#colortable {
+		max-width: 760px;
+		width: 100%;
+	}
+	#colorimg {
+		max-width: 760px;
+	} 
+	#colorheading, #typeheading {
+   
+		width:16.67%;
+	}
+	#red {
+		
+		width:16.67%;
+	
+	}
+	#ltblue {
+		
+		width:16.67%;
+	}
+	#dkblue {
+		
+		width:16.67%;
+	}
+	#yellow {
+		
+		width:16.67%;
+	}
+	#white {
+		
+		width:16.67%;
+	}
+	th {
+		font-size: 17px;
+		
+	}
+    td, #colortd {
+		font-size: 15px;
+	}
 }
