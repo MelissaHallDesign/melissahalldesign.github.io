@@ -40,7 +40,7 @@ p {
     line-height: 30px;
 }
 nav ul{
-    background-color: #343f4b;
+    background-color: #002642;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,17 +58,11 @@ nav ul{
     text-decoration: none;
     border:1px solid transparent;
     border-radius:0 0 0 0;
-    
-    
 }
-#linknav:hover {
-    background-color: #e59500;
-    color: #0d1321;
+#linknav:hover {   
+    color: #721121;
     text-decoration: none;
-    padding: 15px;
-    list-style-type: none;
-    border-radius: 5px;
-    
+    list-style-type: none;  
 }
 #colorimg {
     width: 500px;
@@ -81,4 +75,24 @@ footer {
     text-align: center;
     background-color: #0d1321;
     padding: 15px;
+}
+table {
+    max-width: 760px;
+    
+}
+th, td {
+    padding: 7px 10px 10px 10px;
+}
+th {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: #002642;
+    color: #e59500;
+}
+td {
+    color: #0d1321;
+    background-color: #e59500;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
