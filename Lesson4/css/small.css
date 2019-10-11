@@ -1,34 +1,69 @@
 nav {
     margin: 0 auto;
     max-width: 760px;
+    background-color: #fafaff;
 }
-nav a {
+nav ul {
+    padding: 0;
+}
+nav ul li a:hover {
+    background-color: #e59500;
+    text-decoration: none;
+}
+nav ul li.active a {
+    background-color: #721121;
+    color: #0d1321;
+}
+
+nav button {
+    border: none;
+    font-size: 1.6rem;
+    background-color: transparent;
+    
+}
+.navigation {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    overflow: hidden;
+    border-left: 1px;
+}
+.navigation li:first-child {
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+.navigation a {
     display: block;
     color: #e59500;
     padding: .25rem;
     text-align: center;
     text-decoration: none;
 }
-nav a:hover {
+.navigation a:hover {
     color: #721121;
+    
+    font-weight: 700;
 }
-.navigation {
-    list-style: none;
-    text-align: center;
-    padding: 0;
-    background-color: #002642;
+.responsive li {
+    display: block;
 }
+
 #logo {
-    width: 150px;
+    width: 125px;
     height: auto;
     display: flex;
     float: left;
-    padding: 0 10px 0 0;
+    padding: 0 0 0 0;
 }
 header {
     text-align: center;
     background-color: #fafaff;
-    
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body {
     max-width: 760px;
@@ -37,7 +72,7 @@ body {
     
 }
 h1 {
-    font-size: 40px;
+    font-size: 30px;
     font-family: 'Paytone One', sans-serif;
     color: #721121;
     padding: 5px;
@@ -50,10 +85,12 @@ h1 {
     color:#002642;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    float: left;
     padding: 0 0 10px 0;
     
+}
+.headings {
+    display: flex;
+    flex-direction: column;
 }
 h2 {
     font-size: 20px;
@@ -61,6 +98,16 @@ h2 {
     padding: 15px;
     line-height: 5px;
     color:#002642;
+}
+.placeholder {
+    background-color: #e59500;
+    color: #002642;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border-style: solid;
+    border-width: .5px;
+    border-color: #0d1321;
+    padding: 15px;
 }
 #sectionh1 {
     font-size: 25px;
