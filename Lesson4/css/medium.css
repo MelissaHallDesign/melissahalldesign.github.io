@@ -1,14 +1,15 @@
 @media only screen and (min-width: 37.5em) {
-	main {
-		grid-template-columns: 1fr 1fr;
+	main, footer{
+        max-width: 760px;
+        
     }
     
-    #nav, #linknav {
+    #linknav {
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         margin: 0;
-        padding: 15px;
+       
         justify-content: space-around;
         align-items: center;
         display: flex;
@@ -22,13 +23,12 @@
     }
     .navigation li :first-child {
         display: none;
-        width: 0px;
-        padding: 15px;
         white-space: nowrap;
     }
     .navigation li {
         display: block;
-        flex: 1 1 100%;
+        padding: 15PX;
+        
     }
     #menu {
         display: none;

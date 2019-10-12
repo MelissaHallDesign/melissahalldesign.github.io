@@ -1,6 +1,5 @@
 nav {
     margin: 0 auto;
-    max-width: 760px;
     background-color: #fafaff;
 }
 nav ul {
@@ -34,6 +33,7 @@ nav button {
 }
 .navigation li {
     display: none;
+    padding: 15px;
 }
 .navigation a {
     display: block;
@@ -68,11 +68,11 @@ header {
     justify-content: center;
 }
 body {
-    max-width: 760px;
     margin: 0 auto;
     background-color: #fafaff;
     
 }
+
 h1 {
     font-size: 30px;
     font-family: 'Paytone One', sans-serif;
