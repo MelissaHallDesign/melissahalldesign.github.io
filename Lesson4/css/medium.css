@@ -1,0 +1,37 @@
+@media only screen and (min-width: 37.5em) {
+	main {
+		grid-template-columns: 1fr 1fr;
+    }
+    
+    #nav {
+        width: 100%;
+        margin: 0;
+    }
+    .navigation {
+        display: flex;
+        
+    }
+    .navigation li :first-child {
+        display: none;
+        width: 0px;
+        padding: 15px;
+        white-space: nowrap;
+    }
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+    
+    #linknav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 15px;
+    }
+    #menu {
+        display: none;
+    } 
+    .navigation ul li a:hover {
+        background-color: #e59500;
+    }
+}

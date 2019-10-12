@@ -1,21 +1,3 @@
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-        display: flex;
-    }
-    .navigation li :first-child {
-        display: none;
-    }
-    .navigation li {
-        display: block;
-        flex: 1 1 100%;
-    }
-    #linknav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        font-size: 15px;
-    }
-    #menu {
-        display: none;
-    }   
+@media only screen and (min-width: 60em) {
+	  
 }
