@@ -33,7 +33,7 @@ nav button {
 }
 .navigation li {
     display: none;
-    padding: 15px;
+    
 }
 .navigation a {
     display: block;
@@ -45,7 +45,7 @@ nav button {
 .navigation a:hover {
     color: #721121;
     
-    font-weight: 700;
+   
 }
 .responsive li {
     display: block;
