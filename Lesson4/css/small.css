@@ -103,7 +103,7 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     line-height: 5px;
-    color:#002642;
+    color:#721121;
     text-align: center;
 }
 .placeholder {
@@ -150,6 +150,8 @@ footer {
     font-size: 15px;
     text-align: center;
 }
-#link1 {
+.link {
     text-decoration: none;
+    list-style: none;
+    color: #e59500;
 }
