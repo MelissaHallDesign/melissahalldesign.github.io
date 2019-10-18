@@ -39,17 +39,25 @@
     </nav>
     <main>
         <h2>Preston Idaho</h2>
-        <div class="placeholder"> <img id="weatherphoto" src="images/danny-grizzle.jpg">Hero image</div>
-        <div>Weather summary</div>
-        <div class="placeholder">
-            5 day forecast</div><table>
-                <th>
-                    <td>Monday</td>
-                    <td>Tuesday</td>
-                    <td>Wednesday</td>
-                    <td>Thursday</td>
-                    <td>Friday</td>
-                </th>
+        <section>
+        <div> <img id="weatherphoto" src="images/danny-grizzle-crop.jpg" alt="image of field and small white building"></div>
+    </section>
+        <div class="hideonsmall">
+            <table>
+                <tr>
+                    <th class="blank"></th>
+                    <th class="blank"></th>
+                    <th class="tabletitle" alt="images of weather">5 Day Forecast</th></tr>
+                    <th class="blank"></th>
+                    <th class="blank"></th>
+                </tr>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                </tr>
                 <tr>
                     <td>High</td>
                     <td>High</td>
@@ -71,12 +79,28 @@
                     <td>Low</td>
                     <td>Low</td>
                 </tr>
-
             </table>
-        <div class="placeholder">Article</div>
-        <div class="placeholder">Map/Contact information</div>
+        </div>
+        <section>
+        <div class="articlediv"><img class="dogimg" src="images/joe-caione.jpg"><h3>Spending time outdoors with your dog can make you happier</h3>
+            <p>New studies suggest that playing with your dog will make you happier and healthier. 
+                Choosing to spend this playtime outside will boost those happy feelings and benefit both you and 
+                your canine friend. Getting a little more exercise is always a good idea. Many people and 
+                their animals are all in need of additional time outside to unwind and have some time away from the couch.
+            </p>
+        </div>
+    </section>
+    <section>
+        <div>
+        <iframe class="hideonsmall" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.726282523094!2d-111.91534459120224!3d42.09980531205498!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1571366596938!5m2!1sen!2sus" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        <h4 class="contactdiv">Contact Us<br></h4>
+        <p class="contactdiv">208-987-6543<br>
+        contact@huckleberryweather.com<br>
+        huckleberryweather.com<br></p> 
+    </div>
+</section>
     </main>
-    <footer>
+    <footer class="sec3">
             &copy;2019 | Melissa Hall | Utah | <a class="link" href="#">Terms of Use</a><br>
             Current Date:<span id="currentday1"></span><br>
             <a class="link" href="https://www.byui.edu/online">BYUI Online Learning</a><br>

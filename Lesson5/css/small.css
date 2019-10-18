@@ -1,3 +1,6 @@
+main {
+    display: block;
+}
 nav {
     margin: 0 auto;
     background-color: #fafaff;
@@ -106,6 +109,12 @@ h2 {
     color:#721121;
     text-align: center;
 }
+h3, h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+    color:#721121;
+}
+
 .placeholder {
     background-color: #e59500;
     color: #0d1321;
@@ -143,17 +152,11 @@ nav ul{
     overflow: hidden;
     
 }
-footer {
-    background-color: #0d1321;
-    color: #e59500;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    text-align: center;
-}
+
 .link {
     text-decoration: none;
     list-style: none;
-    color: #e59500;
+    color: #ada9a1;
 }
 #weatherphoto {
     width: 760px;
@@ -161,14 +164,23 @@ footer {
     
 }
 table {
-    background-color: #e59500;
+    background-color: #fafaff;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    }
+.tabletitle {
+    color: #721121;
+    background-color: #fafaff;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.blank {
+    background-color: #fafaff;
 }
 th {
-    background-color: #0d1321;
-    color: #e59500;
+    background-color: #002642;
+    color: #fafaff;
     width: 20%;
 }
 td {
@@ -177,4 +189,22 @@ td {
 }
 .icon {
     width: 25px;
+}
+footer, .sec3 {
+    background-color: #0d1321;
+    color: #e59500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    clear: both;
+}
+.dogimg {
+    margin-top: 30px;
+    float: right;
+}
+.contactdiv {
+    float: right;
+}
+.hideonsmall {
+    display: none;
 }

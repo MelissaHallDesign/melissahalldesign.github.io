@@ -3,8 +3,9 @@
         max-width: 760px;
         margin: auto;
     }
-    
-    
+    .hideonsmall {
+        display: unset;
+    }
     .navigation {
         display: flex;
         justify-content: space-around;
