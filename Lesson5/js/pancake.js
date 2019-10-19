@@ -1,8 +1,5 @@
-var date = new Date();
-var day = date.getDay();
-if (day = 5) {
-    var display = "pancake";
-}
-else {
-    var display = none;
+var d = new Date();
+var currentday1 = d.getDay();
+if (currentday1 == 5) {
+    document.getElementsByClassName("banner")[0].classList.toggle("pancakebanner");
 }
