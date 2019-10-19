@@ -29,16 +29,10 @@
         float: right;
         padding-left: 50px;
     }
-    
-    .weathersummary {
-        
-        left: 225px;
-        margin-left: 50px;
-    }
     .dogimg {
         margin-top: 30px;
         float: right;
-        clear: both;
+        padding: 5px;
         width: 400px;
         height: 267px;
     }

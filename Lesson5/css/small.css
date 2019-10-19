@@ -214,14 +214,16 @@ footer, .sec3 {
 .hideonsmall5day, .hideonsmallmap {
     display: none;
 }
+.herosection {
+    position: relative;
+}
 .weathersummary {
     background-color: hsl(350, 74%, 26%, .75);
     padding: 5px;
     max-width: 50%;
-    top: 275px;
+    top: 25px;
     left: 25px;
     position: absolute;
-    margin-left: 30px;
     
 }
 .weathersummaryp, .weathersummaryheading {
