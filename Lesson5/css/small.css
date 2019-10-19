@@ -211,7 +211,7 @@ footer, .sec3 {
 .contactdiv {
     text-align: center;
 }
-.hideonsmall {
+.hideonsmall5day, .hideonsmallmap {
     display: none;
 }
 .weathersummary {

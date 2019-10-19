@@ -3,7 +3,7 @@
         max-width: 760px;
         margin: auto;
     }
-    .hideonsmall {
+    .hideonsmall5day, .hideonsmallmap {
         display: unset;
     }
     .navigation {
@@ -27,7 +27,7 @@
     }
     .contactdiv {
         float: right;
-        position: relative;
+        padding-left: 50px;
     }
     
     .weathersummary {
@@ -38,6 +38,14 @@
         margin-top: 30px;
         float: right;
         clear: both;
-        max-width: 50%;
+        width: 200px;
+    }
+    .articlediv {
+        display: flex;
+        flex-direction: row;
+    }
+    .mapcontactsection {
+        display: flex;
+        flex-direction: row;
     }
 }
