@@ -35,10 +35,7 @@
         width: 400px;
         height: 267px;
     }
-    .articlediv {
-        display: flex;
-        
-    }
+    
     .mapcontactsection {
         display: flex;
         flex-direction: row;
