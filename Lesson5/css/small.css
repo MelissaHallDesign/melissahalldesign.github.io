@@ -214,6 +214,10 @@ footer, .sec3 {
 .hideonsmall5day, .hideonsmallmap {
     display: none;
 }
+.hideonsmallmap {
+    max-width: 90%;
+    padding: 10px;
+}
 .herosection {
     position: relative;
 }
