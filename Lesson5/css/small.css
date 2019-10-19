@@ -113,6 +113,8 @@ h3, h4 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;    
     color:#721121;
+    padding: 10px;
+    margin-top: 60px;
 }
 
 .placeholder {
@@ -134,7 +136,8 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 17px;
     color: #0d1321;
-    padding: 15px;
+    padding-top: 20px;
+    padding: 10px;
     line-height: 30px;
 }
 nav ul{
@@ -159,9 +162,10 @@ nav ul{
     color: #ada9a1;
 }
 #weatherphoto {
-    width: 760px;
+    width: 100%;
     margin: 0 auto;
     position: absolute;
+    padding: 10px;
 }
 table {
     background-color: #fafaff;
@@ -202,10 +206,10 @@ footer, .sec3 {
 }
 .dogimg {
     margin-top: 30px;
-    float: right;
+    width: 100%;
 }
 .contactdiv {
-    float: right;
+    text-align: center;
 }
 .hideonsmall {
     display: none;
@@ -213,10 +217,14 @@ footer, .sec3 {
 .weathersummary {
     background-color: hsl(350, 74%, 26%, .75);
     color: #fafaff;
-    padding: 15px;
-    max-width: 20%;
+    font-size: 15px;
+    padding: 10px;
+    max-width: 50%;
     position: relative;
-    margin-left: 50px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: center;
 }
 .pancake {
     background-color: #e59500;
