@@ -31,7 +31,8 @@
     }
     
     .weathersummary {
-        max-width: 30%;
+        top: 368px;
+        left: 225px;
         margin-left: 50px;
     }
     .dogimg {

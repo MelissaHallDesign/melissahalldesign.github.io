@@ -164,7 +164,7 @@ nav ul{
 #weatherphoto {
     width: 100%;
     margin: 0 auto;
-    position: absolute;
+    display: block;
     padding: 10px;
 }
 table {
@@ -216,14 +216,19 @@ footer, .sec3 {
 }
 .weathersummary {
     background-color: hsl(350, 74%, 26%, .75);
+    padding: 5px;
+    max-width: 50%;
+    top: 368px;
+    left: 25px;
+    position: absolute;
+    margin-left: 30px;
+    
+}
+.weathersummaryp, .weathersummaryheading {
     color: #fafaff;
     font-size: 15px;
-    padding: 10px;
-    max-width: 50%;
-    position: relative;
-    margin-left: 30px;
+    line-height: 2px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 25px;
     text-align: center;
 }
 .pancake {
