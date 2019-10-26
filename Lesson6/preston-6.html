@@ -42,14 +42,32 @@
     <main>
         <h2>Preston Idaho</h2>
         <section class="herosection">
-        <div> <img id="weatherphoto" src="images/danny-grizzle-op.jpg" alt="image of field and small white building"></div>
+        <div> 
+            <picture>
+                    <source srcset="images/Preston700.jpg" media="(min-width:461px) and (max-width: 650px)">
+                    <source srcset="images/Preston1000.jpg" media="(min-width:651px)">
+                <img id="week6photo" src="images/Preston400.jpg" alt="field with mountains and blue sky"></div>
+            </picture>
         <div class="weathersummary">
-            <p class="weathersummaryheading">Weather Summary</p>
-            <p class="weathersummaryp">Currently: Overcast</p>
-            <p id="temp" class="weathersummaryp">Current Temperature: 64&deg;</p>
-            <p id="calc" class="weathersummaryp">Wind Chill: 2&deg;</p>
-            <p class="weathersummaryp">Humidity: 71%</p>
-            <p id="speed" class="weathersummaryp">Wind Speed: 12 mph</p>
+                <p class="weathersummaryheading">Weather Summary</p>
+                <p class="weathersection">
+                <span class="weathersummary1">Currently:</span>
+                <span class="weathersummary2">Overcast</span>
+                </p>
+                <p class="weathersection">
+                <span class="weathersummary1">Current Temperature:</span>
+                <span class="weathersummary2"><span id="temp">52</span>&deg;</span>
+                </p>
+                <p class="weathersection">
+                <span class="weathersummary1">Wind Chill:</span> 
+                <span class="weathersummary2"><span id="calc"></span>&deg;</span>
+                <p class="weathersection">
+                <span class="weathersummary1">Humidity:</span>
+                <span class="weathersummary2">71%</span>
+                </p>
+                <p class="weathersection">
+                <span class="weathersummary1">Wind Speed:</span>
+                <span class="weathersummary2"><span id="speed"></span>mph</span>
         </div>
     </section>
     <section>
