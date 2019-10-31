@@ -19,4 +19,8 @@ img {
     min-width: 50px;
     min-height: 50px;
     border: 1px solid black;
+    display: grid;
+    grid-template-columns: 300px;
+    padding: 5px;
+    margin: 0 auto;
 }
