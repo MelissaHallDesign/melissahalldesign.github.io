@@ -40,4 +40,8 @@
         display: flex;
         flex-direction: row;
     }
+/*Gallery css*/
+.gallery {
+    grid-template-columns: 1fr 1fr;
+}
 }

@@ -4,4 +4,8 @@
         width: 760px;
         
     }
+/*Gallery css*/
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
 }
