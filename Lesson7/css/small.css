@@ -307,7 +307,7 @@ hr {
     column-gap: 10px;
     /*grid-template-rows: 1fr;*/
 }
-figure:hover{
+figure img:hover figcaption:hover{
     box-shadow: #002642, 50px;
 }
 figcaption {
