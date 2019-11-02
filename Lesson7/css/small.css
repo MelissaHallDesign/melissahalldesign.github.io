@@ -307,9 +307,7 @@ hr {
     column-gap: 10px;
     /*grid-template-rows: 1fr;*/
 }
-figure:hover{
-    box-shadow: 0 5px 8px 0;
-}
+
 figcaption {
     background-color: hsl(39, 100%, 45%, 0.75);
     color: #0d1321;
