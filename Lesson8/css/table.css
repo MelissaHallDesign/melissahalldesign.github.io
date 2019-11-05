@@ -12,8 +12,32 @@ Use the thead, tbody, and tfoot tags in your table structure.
 
 table {
     font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
 }
-th, thead, tfoot  {
+th {
+    background-color: #7fb9c2;
+    color: #e7ffed;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+thead {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: #628ca6;
+}
+tfoot {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+footer {
+    text-align: center;
+    padding: 10px;
     background-color: #628ca6;
     color: #e7ffed;
+    margin: 0 auto;
 }
