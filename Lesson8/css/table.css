@@ -14,30 +14,51 @@ table {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 0 auto;
+    border-collapse: collapse;
+    width: 300px;
+    box-shadow: 10px 10px 10px #628ca6;
+    margin-bottom: 100px;
 }
-th {
-    background-color: #7fb9c2;
-    color: #e7ffed;
+table th {
+    background-color: #628ca6;
+    color: white;
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 0 auto;
+    padding: 10px;
 }
-thead {
+table thead {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 0 auto;
     color: black;
+    background-color: #7fb9c2;
+    font-weight: bold;
+    font-size: 30px;
+}
+table tbody {
+    background-color: #e7ffed;
+}
+table tbody:nth-child(odd):not(:last-child) {
+    background-color: #e7f0ed;
+}
+table td {
+    padding: 10px;
+}
+.sale {
     background-color: #628ca6;
+    color: white;
 }
 tfoot {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
     margin: 0 auto;
+    background-color: #7fb9c2;
 }
 footer {
     text-align: center;
     padding: 10px;
     background-color: #628ca6;
-    color: #e7ffed;
+    color: black;
     margin: 0 auto;
 }
