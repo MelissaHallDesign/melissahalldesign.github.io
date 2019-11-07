@@ -50,24 +50,26 @@ table tr {
 table tr:nth-child(odd) {
     background-color: #e7f0ed;
 }
-table td {
-    padding: 10px;
-    border: 10px grey;
-}
+
 .sale {
     background-color: #628ca6;
     color: white;
 }
-table tfoot {
-    font-family: 'Ubuntu', sans-serif;
-    text-align: center;
-    margin: 0 auto;
-    background-color: #7fb9c2;
-}
+
 footer {
     text-align: center;
     padding: 10px;
     background-color: #628ca6;
     color: black;
     margin: 0 auto;
+}
+table tfoot td {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #7fb9c2;
+}
+table tr td {
+    padding: 10px;
+    border: 10px grey;
 }
