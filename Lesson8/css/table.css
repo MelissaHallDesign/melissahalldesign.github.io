@@ -21,11 +21,9 @@ table {
     box-shadow: 10px 10px 10px #628ca6;
     margin-bottom: 100px;
     margin-top: 25px;
-    border: 10px grey;
+    
 }
-tbody {
-    border: 20px grey;
-}
+
 table th {
     background-color: #628ca6;
     color: white;
@@ -33,7 +31,7 @@ table th {
     text-align: center;
     margin: 0 auto;
     padding: 10px;
-    border: 10px grey;
+    
 }
 table caption {
     font-family: 'Ubuntu', sans-serif;
@@ -45,7 +43,7 @@ table caption {
     font-size: 30px;
     padding: 10px;
     box-shadow: 10px 10px 10px #628ca6;
-    border: 10px grey;
+    
 }
 table tr {
     background-color: #e7ffed;
@@ -71,9 +69,9 @@ table tfoot td {
     text-align: center;
     margin: 0 auto;
     background-color: #7fb9c2;
-    border: 10px grey;
+    
 }
-table td {
+table td, th {
     padding: 10px;
-    border: 10px grey;
+    border: 1px solid grey;
 }
