@@ -33,51 +33,59 @@
             <li><a href="https://melissahalldesign.github.io/Lesson6/preston-6.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li><a class="current" href="gallery-7.html">Gallery</a></li>
+            <li><a class="current" href="https://melissahalldesign.github.io/Lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://melissahalldesign.github.io/Lesson7/gallery-7.html">Gallery</a></li>
         
         </ul>
     </nav>
     <main>
-        <h2>Weather Gallery</h2>
-        <section class="gallery">
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/CloudyFarm400x300.jpg" alt="clouds over a farm">
-            <figcaption>Cloudy farm</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/Lightning400x300.jpg" alt="lightning storm">
-            <figcaption>Lightning</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/Snow400x300.jpg" alt="snow">
-            <figcaption>Snow</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/Storm400x300.jpg" alt="stormy weather">
-            <figcaption>Storm</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/SunnyField400x300.jpg" alt="field">
-            <figcaption>Sunny field</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/SunnyGrass400x300.jpg" alt="Sun shining on grass">
-            <figcaption>Sunny grass field</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/SunnyGreenField400x300.jpg" alt="Sun shining on green field">
-            <figcaption>Sunny green field</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/WheatField400x300.jpg" alt="Wheat field">
-            <figcaption>Wheat field</figcaption>
-        </figure>
-        <figure>
-            <img src="images/WeatherPlaceholder.jpg" data-src="images/Sunset400x300.jpg" alt="Sunset">
-            <figcaption>Sunset</figcaption>
-        </figure>  
-    </section>      
+        <h1>Storm Center</h1>
+       <fieldset>
+           <legend>Report Storm</legend>
+          <label> Full Name*<input type="text" name="fullname" pattern="[A-Za-z]{5}" required></label>
+          <label> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+          <label> Phone*<input type="tel" name="phone" required></label>
+          <label> Zip Code*<input type="number" name="zip" required></label>
+          <label> Storm Date<input type="date" name="date"></label>
+          <label> Storm Type<input list="stormtype">
+            <datalist id="stormtype">
+                <option value="Flash Flood">
+                <option value="Hail">
+                <option value="Hurricane">
+                <option value="Thunderstorm">
+                <option value="Tornado">
+            </datalist>
+        </label>
+        <label> Storm Severity<input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
+    </label>
+    <label> Storm Region<select name="region" size="4">
+        <option disabled value="Select Region">Select Region</option>
+        <option value="Preston">Preston</option>
+        <option value="Soda Springs">Soda Springs</option>
+        <option value="Fish Haven">Fish Haven</option>
+    </select>
+</label>
+       </fieldset>
+       <fieldset>
+           <legend>Course Information</legend>
+           <div>
+               User in Danger
+           </div>
+           <label><input type="radio" name="dangerlevel" value="yes">Yes</label>
+           <label><input type="radio" name="dangerlevel" value="maybe">Maybe</label>
+           <label><input type="radio" name="dangerlevel" value="no">No</label>
+       </fieldset>
+       <fieldset>
+           <form>
+               Additional information
+          <textarea wrap placeholder="Additional information">
+            </form>
+            <label><input type="submit"></label>
+       
+       </fieldset>
+               
+        
     </main>
     <footer class="sec3">
             &copy;2019 | Melissa Hall | Utah | <a class="link" href="#">Terms of Use</a><br>
