@@ -349,7 +349,7 @@ form fieldset {
 }
 legend, label {
     color: #002642;
-    font-size: 20px bold;
+    font-size: 18px;
     /*margin: 0 2rem;*/
     padding: 0 .5rem;
 }
