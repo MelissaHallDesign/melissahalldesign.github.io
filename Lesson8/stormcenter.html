@@ -39,15 +39,22 @@
         </ul>
     </nav>
     <main>
-        <h1>Storm Center</h1>
+        <h1 class="formtitle">Storm Center</h1>
+        <div class="formdata">
+        
+        <h2 class="formtitle">Report Storm</h2>
+        <form>
        <fieldset>
-           <legend>Report Storm</legend>
-          <label> Full Name*<input type="text" name="fullname" pattern="[A-Za-z]{5}" required></label>
-          <label> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
-          <label> Phone*<input type="tel" name="phone" required></label>
-          <label> Zip Code*<input type="number" name="zip" required></label>
-          <label> Storm Date<input type="date" name="date"></label>
-          <label> Storm Type<input list="stormtype">
+           <legend>Contact Information</legend>
+          <label class="top"> Full Name*<input type="text" name="fullname" pattern="[A-Za-z]{5}" required></label>
+          <label class="top"> Email<input type="email" name="email" placeholder="someone@gmail.com"></label>
+          <label class="top"> Phone*<input type="tel" name="phone" required></label>
+          <label class="top"> Zip Code*<input type="number" name="zip" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Storm Information</legend>
+          <label class="top"> Storm Date<input type="date" name="date"></label>
+          <label class="top"> Storm Type<input list="stormtype">
             <datalist id="stormtype">
                 <option value="Flash Flood">
                 <option value="Hail">
@@ -56,11 +63,11 @@
                 <option value="Tornado">
             </datalist>
         </label>
-        <label> Storm Severity<input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+        <label class="top"> Storm Severity<input type="range" id="severity" value="5" min="1" max="10" step="1" list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
             <span id="ratingvalue">5</span>
     </label>
-    <label> Storm Region<select name="region" size="4">
-        <option disabled value="Select Region">Select Region</option>
+    <label class="top"> Storm Region<select name="region" size="4">
+        <option disabled value="Select Region">Select Region &#9662;</option>
         <option value="Preston">Preston</option>
         <option value="Soda Springs">Soda Springs</option>
         <option value="Fish Haven">Fish Haven</option>
@@ -68,24 +75,19 @@
 </label>
        </fieldset>
        <fieldset>
-           <legend>Course Information</legend>
+           <legend class="top">Additional Information</legend>
            <div>
-               User in Danger
+               Are you in danger?
            </div>
-           <label><input type="radio" name="dangerlevel" value="yes">Yes</label>
-           <label><input type="radio" name="dangerlevel" value="maybe">Maybe</label>
-           <label><input type="radio" name="dangerlevel" value="no">No</label>
+           <label class="sbs"><input type="radio" name="dangerlevel" value="yes">Yes</label>
+           <label class="sbs"><input type="radio" name="dangerlevel" value="maybe">Maybe</label>
+           <label class="sbs"><input type="radio" name="dangerlevel" value="no">No</label>
+           <legend>Comments</legend>
+           <label><textarea name="Additional information"></textarea></label>
        </fieldset>
-       <fieldset>
-           <form>
-               Additional information
-          <textarea wrap placeholder="Additional information">
-            </form>
-            <label><input type="submit"></label>
-       
-       </fieldset>
-               
-        
+            <input type="submit" value="Send Storm Report" class="submitBtn">
+    </form>    
+</div>
     </main>
     <footer class="sec3">
             &copy;2019 | Melissa Hall | Utah | <a class="link" href="#">Terms of Use</a><br>

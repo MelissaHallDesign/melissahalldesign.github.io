@@ -11,4 +11,7 @@
 figure:hover{
     box-shadow: 0 5px 8px 0;
 }
+form label.sbs {
+    padding: .4rem 0;
+}
 }
