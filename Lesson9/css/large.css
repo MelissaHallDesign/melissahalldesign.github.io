@@ -1,0 +1,17 @@
+@media only screen and (min-width: 60em) {
+      
+    #weatherphoto {
+        width: 760px;
+        
+    }
+/*Gallery css*/
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+figure:hover{
+    box-shadow: 0 5px 8px 0;
+}
+form label.sbs {
+    padding: .4rem 0;
+}
+}
