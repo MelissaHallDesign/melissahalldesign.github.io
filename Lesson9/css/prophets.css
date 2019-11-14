@@ -1,4 +1,4 @@
-body, header, h1, footer {
+header, body, h1, footer {
     background-color: rgb(112, 146, 52);
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,16 +11,16 @@ body, header, h1, footer {
     justify-items: center;
     column-gap: 10px;
     row-gap: 10px;
-    background-color: darkolivegreen;
+    
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    
+    align-content: center;
 }
 section {
     border: black solid 1px;
-    padding: 10px;
-    width: 250px;
+    width: 100%;
     height: auto;
+    background-color: darkolivegreen;
 }
 p {
     font-size: 15px;
@@ -36,11 +36,7 @@ img {
     }
     
 }
-@media only screen and (min-width: 49em){
-    .cards{
-        grid-template-columns: repeat(3, 1fr);
-    } 
-}
+
 @media only screen and (min-width: 60em){
     .cards{
         grid-template-columns: repeat(4, 1fr);
