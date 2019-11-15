@@ -14,4 +14,8 @@ figure:hover{
 form label.sbs {
     padding: .4rem 0;
 }
+/*Home page*/
+.prestonimg, .fishhavenimg, .sodaspringsimg {
+    grid-template-columns: repeat(3, 1fr);
+}
 }
