@@ -28,12 +28,12 @@ fetch(requestURL)
             image.setAttribute('src', 'images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
             //Merge them together
+            card.appendChild(span);
             span.appendChild(h2);
             span.appendChild(motto);
             span.appendChild(yearFounded);
             span.appendChild(currentPopulation);
             span.appendChild(averageRainfall);
-            card.appendChild(span);
             card.appendChild(image);
             //Attaching to the page
             document.querySelector('div.towncards').appendChild(card);
