@@ -9,6 +9,7 @@ fetch(requestURL)
         const idahoTowns = ["Fish Haven", "Soda Springs", "Preston"];
         for (let i = 0; i < towns.length; i++) { 
             if (idahoTowns.includes(towns[i].name)) {
+            //create variable elements
             let card = document.createElement('section');
             let h2 = document.createElement('h2');
             let motto = document.createElement('p');
@@ -16,6 +17,7 @@ fetch(requestURL)
             let currentPopulation = document.createElement('p');
             let averageRainfall = document.createElement('p');
             let image = document.createElement('img');
+            //modify the contents
             card.className = 'towncard';
             motto.className = 'motto';
             h2.textContent = towns[i].name;
@@ -25,12 +27,15 @@ fetch(requestURL)
             averageRainfall.textContent =  'Annual Rain Fall: ' + towns[i].averageRainfall;
             image.setAttribute('src', 'images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
-            card.appendChild(h2);
-            card.appendChild(motto);
-            card.appendChild(yearFounded);
-            card.appendChild(currentPopulation);
-            card.appendChild(averageRainfall);
+            //Merge them together
+            span.appendChild(h2);
+            span.appendChild(motto);
+            span.appendChild(yearFounded);
+            span.appendChild(currentPopulation);
+            span.appendChild(averageRainfall);
+            card.appendChild(span);
             card.appendChild(image);
+            //Attaching to the page
             document.querySelector('div.towncards').appendChild(card);
         }
         }
