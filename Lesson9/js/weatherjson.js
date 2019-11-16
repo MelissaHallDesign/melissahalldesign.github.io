@@ -11,6 +11,7 @@ fetch(requestURL)
             if (idahoTowns.includes(towns[i].name)) {
             //create variable elements
             let card = document.createElement('section');
+            let span = document.createElement('span');
             let h2 = document.createElement('h2');
             let motto = document.createElement('p');
             let yearFounded = document.createElement('p');
