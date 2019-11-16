@@ -31,7 +31,7 @@ fetch(requestURL)
             card.appendChild(currentPopulation);
             card.appendChild(averageRainfall);
             card.appendChild(image);
-            document.getElementsByClassName('div.towncards').appendChild(card);
+            document.querySelector('div.towncards').appendChild(card);
         }
         }
     });
