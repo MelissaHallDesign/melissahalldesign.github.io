@@ -28,7 +28,7 @@ fetch(requestURL)
             image.setAttribute('src', 'images/' + towns[i].photo);
             image.setAttribute('alt', towns[i].name);
             //Merge them together
-            card.appendChild(span);
+            card.appendChild(div);
             span.appendChild(h2);
             span.appendChild(motto);
             span.appendChild(yearFounded);
