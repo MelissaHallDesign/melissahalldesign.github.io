@@ -407,14 +407,59 @@ p.wiretext {
     padding: 15px;
 }
 /*Home page*/
-section {
+
+.towncards {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+
+    /*flex-grow: 1;*/
+    border-radius: 5px;
     margin: 0 auto;
+    padding: 10px;
+}
+.towncard {
+    border: #721121 solid 3px;
+    padding: 10px;
+    margin: 10px;
+    background-color: hsl(39, 100%, 45%, .5);
     
+}
+.towncard h3 {
+    margin-top: 0;
+}
+.towncard section {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    
+}
+.towncard section span {
+    margin: 0 auto;
+}
+
+.towncards section span :nth-child(2){
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+/*.towncard section:nth-child(1){
+    order:2;
+}
+*/
+.towncards section:first-child {
+    order: 3;
 }
 .towncards img {
     width: 100%;
     height: auto;
     margin: 0 auto;
+}
+.towncard p {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
 }

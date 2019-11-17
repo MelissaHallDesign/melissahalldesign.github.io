@@ -45,5 +45,10 @@
     grid-template-columns: 1fr 1fr;
 }
 /*Home page css*/
-
+.towncards section:nth-child(1){
+    order:2;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: row-reverse;
+}
 }
