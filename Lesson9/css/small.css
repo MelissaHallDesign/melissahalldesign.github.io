@@ -471,9 +471,12 @@ p.wiretext {
 }
 .towncard p {
     font-family: Arial, Helvetica, sans-serif;
-    
     text-align: center;
+    font-size: 14px;
 }
 .homediv p {
     padding: 10px;
+}
+.homeh3 {
+    margin-top: 0;
 }

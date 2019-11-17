@@ -32,22 +32,25 @@ form label.sbs {
     flex-direction: column;
     width: 50%;
 }
-.towncards section span {
-    flex-direction: column;
-    justify-content: center;
-    
-}
+
 .towncards section span {
     width: 100%;
     display: flex;
     margin: auto;
+    flex-direction: column;
+    justify-content: center;
 }
 .towncards img {
     align-items: center;
-    width: 100%;
+    width: 200px;
     display: flex;
 }
-.towncards p {
+.towncard p {
     margin: 5px;
+    
+    
+}
+.towncard {
+    width: 33.33%;
 }
 }
