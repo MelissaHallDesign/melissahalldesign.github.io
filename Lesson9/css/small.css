@@ -407,7 +407,11 @@ p.wiretext {
     padding: 15px;
 }
 /*Home page*/
-
+.homeimg {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
 .towncards {
     display: flex;
     flex-direction: column;
@@ -424,8 +428,10 @@ p.wiretext {
     background-color: hsl(39, 100%, 45%, .5);
     
 }
-.towncard h3 {
+.towncard h4 {
     margin-top: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 .towncard section {
     justify-content: center;
@@ -450,8 +456,13 @@ p.wiretext {
     order:2;
 }
 */
+/*
 .towncards section:first-child {
     order: 3;
+}
+*/
+.towncards section:nth-child(1){
+    order:3;
 }
 .towncards img {
     width: 100%;
@@ -462,4 +473,7 @@ p.wiretext {
     font-family: Arial, Helvetica, sans-serif;
     
     text-align: center;
+}
+.homediv p {
+    padding: 10px;
 }
