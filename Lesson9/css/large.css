@@ -18,13 +18,36 @@ form label.sbs {
 .towncards {
     display: flex;
     flex-direction: row;
-}
-.towncards section {
-    flex-direction: column;
     justify-content: center;
 }
-.towncards section img {
+
+.towncards section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    
+}
+.towncards section:nth-child(3){
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.towncards section span {
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.towncards section span {
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.towncards img {
     align-items: center;
     width: 100%;
+    display: flex;
+}
+.towncards p {
+    margin: 5px;
 }
 }
