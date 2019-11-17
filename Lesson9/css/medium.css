@@ -58,6 +58,7 @@
     /*flex-direction: row-reverse;*/
 }
 
+
 .towncards section:nth-child(3) {
     /*order:2;
     display: flex;*/
@@ -69,6 +70,12 @@
     font-size: 15px;
 }
 .towncards img {
+    width: 50%;
+    
+}
+.towncards section span {
+    align-items: center;
+    text-align: center;
     width: 50%;
 }
 }
