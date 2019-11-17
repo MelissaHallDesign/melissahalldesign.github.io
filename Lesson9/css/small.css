@@ -417,15 +417,19 @@ p.wiretext {
     flex-direction: column;
 
     /*flex-grow: 1;*/
-    border-radius: 5px;
+    
     margin: 0 auto;
     padding: 10px;
+}
+.towncard {
+    border-radius: 5px;
 }
 .towncard {
     border: #721121 solid 3px;
     padding: 10px;
     margin: 10px;
     background-color: hsl(39, 100%, 45%, .5);
+    border-radius: 10px;
     
 }
 .towncard h4 {
@@ -468,6 +472,7 @@ p.wiretext {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    border-radius: 5px;
 }
 .towncard p {
     font-family: Arial, Helvetica, sans-serif;
