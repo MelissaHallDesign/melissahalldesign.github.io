@@ -15,7 +15,16 @@ form label.sbs {
     padding: .4rem 0;
 }
 /*Home page*/
-.prestonimg, .fishhavenimg, .sodaspringsimg {
-    grid-template-columns: repeat(3, 1fr);
+.towncards {
+    display: flex;
+    flex-direction: row;
+}
+.towncards section {
+    flex-direction: column;
+    justify-content: center;
+}
+.towncards section img {
+    align-items: center;
+    width: 100%;
 }
 }
