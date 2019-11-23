@@ -505,7 +505,7 @@ p.wiretext {
 .eventcard span hr {
     border-color: #721121;
 }
-.fishimg {
+.fishimg, .sodaimg {
     margin-top: 30px;
     width: 100%;
 }

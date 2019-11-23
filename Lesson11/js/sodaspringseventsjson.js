@@ -6,7 +6,7 @@ fetch(requestURL)
     .then(function (jsonObject) {
         console.table(jsonObject); //temporary testing
         const towns = jsonObject['towns'];
-        const idahoTowns = ["Preston"];
+        const idahoTowns = ["Soda Springs"];
         for (let i = 0; i < towns.length; i++) { 
             if (idahoTowns.includes(towns[i].name)) {
             //create variable elements
@@ -24,7 +24,7 @@ fetch(requestURL)
             event.textContent = towns[i].events[0];
             event1.textContent = towns[i].events[1];
             event2.textContent = towns[i].events[2];
-            image.setAttribute('src', 'images/PrestonEventImg1.jpg');
+            image.setAttribute('src', 'images/SodaSpringsEventImg1.jpg');
             image.setAttribute('alt', towns[i].events[0]);
             //Merge them together
             

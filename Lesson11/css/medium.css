@@ -28,7 +28,7 @@
     .contactdiv {
         float: right;
     }
-    .dogimg {
+    .dogimg, .fishimg, .sodaimg {
         margin-top: 30px;
         float: right;
         padding: 5px;
