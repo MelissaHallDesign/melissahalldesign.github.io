@@ -6,10 +6,11 @@ fetch(apiURL)
   .then((jsObject) => {
     console.log(jsObject);
 
+    var counter = 1;
     for (let i = 0; i < jsObject.list.length; i++){
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
-        console.log(jsObject.list[i].main.temp.toFixed(0));
-    document.getElementById('temp')
+        /*console.log(jsObject.list[i].main.temp.toFixed(0));*/
+    document.getElementById('temp_' + counter).setAttribute("src", image_src);
     .textContent = jsObject.list[i].main.temp;
     
     const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
