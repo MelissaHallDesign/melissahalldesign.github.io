@@ -492,7 +492,7 @@ p.wiretext {
     border: #721121 solid 3px;
     padding: 10px;
     margin: 10px;
-    background-color: hsl(39, 100%, 45%, .5);
+    background-color: hsl(205, 100%, 13%, .3);
     border-radius: 10px;
     text-align: center;
 }
