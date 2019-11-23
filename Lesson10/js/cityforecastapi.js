@@ -13,7 +13,7 @@ fetch(apiURL2)
     document.getElementById('temp_' + counter).textContent = jsObject.list[i].main.temp;
     
     const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '.png';  // note the concatenation
-    const desc = jsObject.weather[0].description;  // note how we reference the weather array
+    const desc = jsObject.list[i].weather[0].description;  // note how we reference the weather array
     document.getElementById('pimg_' + counter).setAttribute('src', imagesrc);  // focus on the setAttribute() method
     document.getElementById('pimg_' + counter).setAttribute('alt', desc);
     counter++;
