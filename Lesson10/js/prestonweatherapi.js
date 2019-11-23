@@ -32,9 +32,9 @@ fetch(apiURL)
     document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
     document.getElementById('icon').setAttribute('alt', desc);
 
-    //runWindChill();
+    runWindChill();
   });
-  function runwindChill(){
+  function runWindChill(){
     var temp = parseFloat(document.getElementById('current-temp').textContent);
     var speed = parseFloat(document.getElementById('speed').textContent);
   if (temp <= 50 && speed >= 3) {
