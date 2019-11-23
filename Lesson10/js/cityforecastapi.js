@@ -1,5 +1,7 @@
 const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=8edd374362f96360d97da10d2909e8b7";
 
+var days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
 
 fetch(apiURL2)
   .then((response) => response.json())
@@ -16,6 +18,10 @@ fetch(apiURL2)
     const desc = jsObject.list[i].weather[0].description;  // note how we reference the weather array
     document.getElementById('pimg_' + counter).setAttribute('src', imagesrc);  // focus on the setAttribute() method
     document.getElementById('pimg_' + counter).setAttribute('alt', desc);
+
+    var d = new Date(jsObject.list[i].dt_txt);
+    document.getElementById('day_' + counter).textContent = days[d.getDay()];
+
     counter++;
       }
     }
