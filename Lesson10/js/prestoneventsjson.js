@@ -13,6 +13,7 @@ fetch(requestURL)
             let card = document.createElement('section');
             let span = document.createElement('span');
             let h4 = document.createElement('h4');
+            let hr = document.createElement('hr');
             let event = document.createElement('p');
             let event1 = document.createElement('p');
             let event2 = document.createElement('p');
@@ -28,6 +29,7 @@ fetch(requestURL)
             //Merge them together
             
             span.appendChild(h4);
+            span.appendChild(hr);
             span.appendChild(event);
             span.appendChild(event1);
             span.appendChild(event2);

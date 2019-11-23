@@ -501,3 +501,6 @@ p.wiretext {
     margin: 0 auto;
     text-align: center;
 }
+.eventcard span hr {
+    border-color: #721121;
+}
