@@ -14,7 +14,7 @@ fetch(apiURL)
     document.getElementById('speed')
     .textContent = jsObject.wind.speed;
 
-    const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8edd374362f96360d97da10d2909e8b7";
+    /*const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&APPID=8edd374362f96360d97da10d2909e8b7";
     fetch(apiURL)
       .then((response) => response.json())
       .then((jsObject) => {
@@ -24,7 +24,7 @@ fetch(apiURL)
             console.log(jsObject.list[i].main.temp.toFixed(0));
           }
         }
-      });
+      });*/
 
     /*const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.weather[0].icon + '.png';  // note the concatenation
     const desc = jsObject.weather[0].description;  // note how we reference the weather array

@@ -10,13 +10,13 @@ fetch(apiURL)
     for (let i = 0; i < jsObject.list.length; i++){
       if (jsObject.list[i].dt_txt.includes('18:00:00')) {
         /*console.log(jsObject.list[i].main.temp.toFixed(0));*/
-    document.getElementById('temp_' + counter).setAttribute("src", image_src);
-    .textContent = jsObject.list[i].main.temp;
+    document.getElementById('temp_' + counter).textContent = jsObject.list[i].main.temp;
     
-    const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[i].weather[0].icon + '.png';  // note the concatenation
+    const imagesrc = 'https://openweathermap.org/img/wn/' + jsObject.list[i].weather[0].icon + '.png';  // note the concatenation
     const desc = jsObject.weather[0].description;  // note how we reference the weather array
-    document.getElementById('imagesrc').textContent = imagesrc;  // informational specification only
-    document.getElementById('icon').setAttribute('src', imagesrc);  // focus on the setAttribute() method
-    document.getElementById('icon').setAttribute('alt', desc);
-
+    document.getElementById('pimg_' + counter).setAttribute('src', imagesrc);  // focus on the setAttribute() method
+    document.getElementById('pimg' + counter).setAttribute('alt', desc);
+    counter ++;
+      }
+    }
   });
