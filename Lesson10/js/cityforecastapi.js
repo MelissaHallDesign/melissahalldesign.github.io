@@ -5,9 +5,9 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     console.log(jsObject);
-    document.getElementById('current-temp')
+    document.getElementById('temp')
     .textContent = jsObject.main.temp;
-    document.getElementById('current-temp')
+    document.getElementById('icon')
     .textContent = jsObject.main.temp;
     document.getElementById('current-temp')
     .textContent = jsObject.main.temp;
