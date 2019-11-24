@@ -225,7 +225,7 @@ footer, .sec3 {
     margin-top: 30px;
     width: 100%;
 }
-.contactdiv {
+.contactdiv, .contactdivfish {
     text-align: center;
 }
 .hideonsmall5day, .hideonsmallmap {

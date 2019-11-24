@@ -28,6 +28,11 @@
     .contactdiv {
         float: right;
     }
+    .contactdivfish {
+        float: right;
+        margin-right: 0;
+        width: 50%;
+    }
     .dogimg, .fishimg, .sodaimg {
         margin-top: 30px;
         float: right;
@@ -39,6 +44,11 @@
     .mapcontactsection {
         display: flex;
         flex-direction: row;
+    }
+    .mapcontactsectionfish {
+        display: flex;
+        flex-direction: row;
+        margin-right: 0;
     }
 /*Gallery css*/
 .gallery {
