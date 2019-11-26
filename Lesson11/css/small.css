@@ -518,3 +518,6 @@ p.wiretext {
     margin-top: 60px;
     text-align: center;
 }
+.articlediv p {
+    padding: 10px;
+}
