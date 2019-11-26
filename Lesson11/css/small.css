@@ -151,8 +151,8 @@ p {
     font-size: 17px;
     color: #0d1321;
     /*padding-top: 20px;*/
-    /*padding: 10px;*/
-    /*line-height: 30px;*/
+    /*padding: 10px;
+    line-height: 30px;*/
 }
 nav ul{
     background-color: #002642;
@@ -481,6 +481,7 @@ p.wiretext {
 }
 .homediv p {
     padding: 10px;
+    line-height: 30px;
 }
 .homeh3 {
     margin-top: 0;
