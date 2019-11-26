@@ -1,5 +1,5 @@
 //5607916 soda springs,5585010 fish haven
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&APPID=8edd374362f96360d97da10d2909e8b7";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0372&lon=111.3960&units=imperial&APPID=8edd374362f96360d97da10d2909e8b7";
 
 
 fetch(apiURL)
