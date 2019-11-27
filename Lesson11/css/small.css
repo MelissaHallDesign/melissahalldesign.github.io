@@ -348,6 +348,7 @@ form fieldset {
     margin: 0 auto;
     float: none;
     padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 legend, label {
     color: #002642;
