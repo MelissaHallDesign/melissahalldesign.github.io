@@ -220,6 +220,8 @@ footer, .sec3 {
     font-size: 15px;
     text-align: center;
     clear: both;
+    padding: 10px;
+    line-height: 25px;
 }
 .dogimg {
     margin-top: 30px;
