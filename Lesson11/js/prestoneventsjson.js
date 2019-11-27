@@ -25,7 +25,7 @@ fetch(requestURL)
             event1.textContent = towns[i].events[1];
             event2.textContent = towns[i].events[2];
             image.setAttribute('src', 'images/PrestonEventImg1.jpg');
-            image.setAttribute('alt', towns[i].events[0]);
+            image.setAttribute('alt', 'old saloon');
             //Merge them together
             
             span.appendChild(h4);

@@ -25,7 +25,7 @@ fetch(requestURL)
             event1.textContent = towns[i].events[1];
             event2.textContent = towns[i].events[2];
             image.setAttribute('src', 'images/FishHavenEventImg1.jpg');
-            image.setAttribute('alt', towns[i].events[0]);
+            image.setAttribute('alt', 'man holding small fish and smiling');
             //Merge them together
             
             span.appendChild(h4);
