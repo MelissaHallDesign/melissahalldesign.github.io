@@ -23,7 +23,9 @@ nav ul li.active a {
     background-color: #721121;
     color: #0d1321;
 }
-
+nav li a {
+    display: block;
+}
 nav button {
     border: none;
     font-size: 1.6rem;
