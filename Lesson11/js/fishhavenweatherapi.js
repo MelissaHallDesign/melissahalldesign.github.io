@@ -5,7 +5,7 @@ const apiURL = "https://api.openweathermap.org/data/2.5/weather?lat=42.0372&lon=
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
+    //console.log(jsObject);
     document.getElementById('current-temp')
     .textContent = jsObject.weather[0].description;
     document.getElementById('temp')
@@ -18,7 +18,7 @@ fetch(apiURL)
     runWindChill();
   });
   function runWindChill(){
-    var temp = parseFloat(document.getElementById('current-temp').textContent);
+    var temp = parseFloat(document.getElementById('temp').textContent);
     var speed = parseFloat(document.getElementById('speed').textContent);
   if (temp <= 50 && speed >= 3) {
     var calc = 35.74 + temp * 0.6215 - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
