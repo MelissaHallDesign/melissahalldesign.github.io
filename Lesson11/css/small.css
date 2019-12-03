@@ -177,6 +177,11 @@ nav ul{
     list-style: none;
     color: #ada9a1;
 }
+.link1 {
+    text-decoration: none;
+    list-style: none;
+    color: #002642;
+}
 #weatherphoto {
     width: 100%;
     margin: 0 auto;
