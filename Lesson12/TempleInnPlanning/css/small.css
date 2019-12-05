@@ -87,7 +87,7 @@ body {
     
 }
 
-h1 {
+h1, .headings, .tagline {
     font-size: 30px;
     font-family: 'Fondamento', cursive;
     color: #1c3144;
