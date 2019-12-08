@@ -3,12 +3,12 @@ main {
 }
 body {
     margin: 0 auto;
-    background-color: #fafaff;  
+    background-color: #faf8d4;  
 }
 /*Header*/
 header {
     text-align: center;
-    background-color: #fafaff;
+    background-color: #faf8d4;
     padding: 5px 0;
     display: flex;
     align-items: center;
@@ -20,6 +20,8 @@ header {
     display: flex;
     float: left;
     padding: 0 0 0 0;
+    margin-left: 10px;
+    margin-top: 15px;
 }
 h1, .headings {
     font-size: 30px;
@@ -28,7 +30,7 @@ h1, .headings {
     padding: 5px;
     margin-left: 0;
     position: relative;
-    float: left;
+    /*float: left;*/
     overflow: auto;
 }
 .tagline {
@@ -43,20 +45,20 @@ h1, .headings {
 /*Navigation Menu*/
 nav {
     margin: 0 auto;
-    background-color: #fafaff;
+    background-color: #faf8d4;
 }
 nav ul {
     padding: 0;
 }
 nav ul li a:hover {
-    background-color: #c3d898;
-    color: #1c3144;
+    background-color: #70161e;
+    color: #faf8d4;
     text-decoration: none;
 }
-nav ul li.active a {
-    background-color: #596f62;
-    color: #c3d898;
-}
+/*nav ul li.active a {
+    background-color: #1c3144;
+    color: #faf8d4;
+}*/
 nav li a {
     display: block;
 }
@@ -74,6 +76,7 @@ nav button {
     font-family: 'Cinzel Decorative', sans-serif;
     font-size: 30px;
     font-weight: bold;
+    border-radius: 5px;
 }
 .navigation li:first-child {
     display: block;
@@ -82,22 +85,24 @@ nav button {
     display: none;
     
 }
+
 .navigation a {
     display: block;
-    color: #c3d898;
-    padding: .25rem;
+    color: #1c3144;
+    padding: .5rem;
     text-align: center;
     text-decoration: none;
+}
+.navigation a.current {
+    background-color: #1c3144;
+    color: #faf8d4;
 }
 /*.navigation a:hover {
     color: #1c3144;  
 }*/
-.current {
-    background-color: #596f62;
-    color: #c3d898;
-}
+
 nav ul{
-    background-color: #1c3144;
+    background-color: #7ea16b;
     display: block;
     width: 100%;
     justify-content: space-around;
@@ -135,7 +140,7 @@ h3 {
     margin-top: 60px;
     text-align: center;
 }
-h4, h5, .mapcontact {
+h4, h5, h6, .mapcontact {
     font-size: 20px;
     font-family: 'Cinzel Decorative', sans-serif;  
     font-weight: bold;  
@@ -149,45 +154,161 @@ p {
     font-family: 'Cinzel Decorative', sans-serif;
     font-size: 17px;
     color: #1c3144;
-    font-weight: bold;
+    /*font-weight: bold;*/
     /*padding-top: 20px;*/
     /*padding: 10px;
     line-height: 30px;*/
 }
 /*End of paragraph text*/
 
+/*Hero Section*/
+.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+/*#heroimg {
+    margin: 0 auto;
+}*/
+/*End of hero section*/
+
 /*Links*/
 .link {
     text-decoration: none;
     list-style: none;
-    color: #ada9a1;
-}
-.link1 {
-    text-decoration: none;
-    list-style: none;
-    color: #002642;
+    color: #faf8d4;
 }
 /*End of Links*/
 
-/*Map and Contact Us*/
-.contactdiv, .contactdivfish {
-    text-align: center;
+/*Contact Flex Form*/
+/*.wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1c3144;
+    margin-top: 50px;
+}*/
+.form {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    background-color: #7ea16b;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.5);
 }
-.hideonsmall5day, .hideonsmallmap {
+/*.form p {
+    
+    font-size: 19px;
+    
+}*/
+/*.img-area {
+    width: 100%;
+
+}*/
+.form-text h4 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 20px;
+    font-family: 'Cinzel decorative', sans-serif;
+}
+.form-text p {
+    color: #1c3144;
+    line-height: 20px;
+    margin: 0 0 20px 0;
+    font-family: 'Cinzel decorative', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+/*.form-text a {
+    background-color: brown;
+    color: black;
+    text-decoration: none;
+}*/
+/*div.img-area {
+    height: 300px;
+    width: 100%;
+}*/
+.form-text {
+    margin: 30px 20px;
+}
+.form-text textarea {
+    width: 100%;
+}
+legend, label {
+    color: #1c3144;
+    padding: 15px;
+    font-family: 'Cinzel decorative', sans-serif;
+    font-weight: 700;
+}
+form label.req, form div {
+    display: flex;
+    flex-direction: column;
+}
+form input.submitButton {
+    padding: 10px;
+    border-radius: 5px;
+    color: #faf8d4;
+    background-color: #1c3144;
+    border: none;
+    font-family: 'Cinzel decorative', sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    width: 50%;
+    max-width: 150px;
+}
+form label.req input:required {
+    border-left: #1c3144 solid 7px;
+    border-radius: 5px;
+}
+form label.req input:required:valid {
+    border-left: #7ea16b solid 7px;
+    border-radius: 5px;
+}
+textarea {
+    width: 90%;
+    height: 10rem;
+    border-radius: 5px;
+}
+.contact1 {
+    margin-bottom: 50px;
+}
+/*End of contact flex form*/
+
+/*Contact Us Section*/
+.contact2, .contact4 {
+    text-align: center;
+    max-width: 90%;
+    padding: 15px;
+}
+img.socialIcon {
+    width: 50px;
+    height: auto;
+}
+.map {
+    /*margin: 0 auto;*/
+    width: 90%;
+    padding: 15px;
+}
+/*.hideonsmall5day, .hideonsmallmap {
     display: none;
 }
 .hideonsmallmap {
     max-width: 90%;
     padding: 10px;
 }
+*/
 /*End of map and contact section*/
 
  /*Footer*/
- footer, .sec3 {
+ footer {
     background-color: #1c3144;
     color: #c3d898;
     font-family: 'Cinzel Decorative', sans-serif;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 15px;
     text-align: center;
     clear: both;

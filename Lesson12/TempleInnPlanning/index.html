@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Temple Inn & Suites | Home</title>
     <meta name="description" content="Melissa Hall Temple Inn & Suites Site CIT 230">
-    <link rel="shortcut icon" href="favicon2.ico">
+    <link rel="shortcut icon" href="faviconBlue.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -17,35 +17,71 @@
 <body>
     <header>
 
-        <div>
-            <a href="index.html"><img id="logo" src="images/TempleInnLogo.png" alt="Green temple logo"></a>
-        </div>
+
+        <nav>
+            <div>
+                <a href="index.html"><img id="logo" src="images/TempleBlue.png" alt="Blue temple logo"></a>
+            </div>
             <section class="headings">
                 <h1>Temple Inn & Suites</h1>
-    
+
                 <div class="tagline">We serve you while you serve others</div>
             </section>
+            <ul class="navigation">
+                <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul class="navigation">
-            <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-            <li><a class="current" href="index.html">Home</a></li>
-            <li><a href="temple.html">Temple</a></li>
-            <li><a href="reservation.html">Reservation</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-
-        </ul>
-    </nav>
     <main>
-        <section class="mapcontactsection">
-            <div>
-                    <iframe class="hideonsmallmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048539614!3d38.983251779557555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575584623428!5m2!1sen!2sus" 
-                    width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+        <section class="hero">
+                <div>
+                    <h2>Temple Spotlight</h2>
+                        <picture>
+                            <source srcset="images/SLTempleReno350.jpg" media="(min-width:461px) and (max-width: 650px)">
+                            <source srcset="images/SLTempleReno500.jpg" media="(min-width:651px)">
+                            <img id="heroimg" src="images/SLTempleReno200.jpg" alt="Salt Lake Temple Renovation Rendering">
+                        </picture>
+                        <p>This month's temple spotlight is the Salt Lake City Temple. At the end of December 2019 
+                            the Salt Lake Temple will be undergoing a major renovation, and isn't expected to open 
+                            until 2023. 
+                        </p>
+                    </div>
+        </section>
+        <section>
+            <div class="contact1">
+                
+                    <div class="form">
+                        <div class="form-text">
+                            <h4>Contact Us</h4>
+                            <p>Let us know any questions or comments you have
+                                and someone will get back to you within 24 hours.
+                            </p>
+                            <form method="get" action="thanks.html">
+                                <fieldset>
+                                    <legend>Contact Information</legend>
+                                    <label class="req"> Full Name*<input type="text" name="fullname"
+                                            pattern="[A-Za-z ]{5,99}" placeholder="First Last" required></label>
+                                    <label class="req"> Email*<input type="email" name="email"
+                                            placeholder="someone@gmail.com" required></label>
+                                    <label class="req"> Phone*<input type="tel" name="phone" placeholder="123-456-7890" required></label>
+                                </fieldset>
+                                <label class="req"> Comments or Questions
+                                    <textarea name="comments" placeholder="Enter text here"></textarea></label>
+                                </fieldset>
+                                <input type="submit" value="Submit" class="submitButton">
+                            </form>
+                        </div>
+                    </div>
             </div>
-            <div class="contactdiv">
-                <h4>Contact Us</h4>
+            <div class="contact2">
+                <h5>Temple Inn & Suites</h5>
                 <p>Phone: (240) 123-4567</p>
                 <p>4800 Montgomery Ln #300</p>
                 <p>Bethesda, MD 20814 </p>
@@ -53,20 +89,39 @@
                 <p>templeinnandsuites.com</p>
             </div>
         </section>
+        <section>
+            <div class="contact3">
+                <iframe class="map"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.4050197013225!2d-77.09772048539614!3d38.983251779557555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0x9c8eb1c5547b83eb!2s4800%20Montgomery%20Ln%20%23300%2C%20Bethesda%2C%20MD%2020814!5e0!3m2!1sen!2sus!4v1575584623428!5m2!1sen!2sus"
+                    width="400" height="300" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <div class="contact4">
+                <h6>Find us on social media!</h6>
+                <a href="https://www.facebook.com"><img class="socialIcon" src="images/FacebookIcon.png"
+                        alt="Facebook Icon"></a>
+                <a href="https://www.instagram.com"><img class="socialIcon" src="images/InstagramIcon.png"
+                        alt="Instagram Icon"></a>
+                <a href="https://twitter.com/home?lang=en"><img class="socialIcon" src="images/TwitterIcon.png"
+                        alt="Twitter Icon"></a>
+            </div>
+        </section>
     </main>
-    <footer class="sec3">
-        &copy;2019 | Melissa Hall | Utah <br>Current Date:<span id="currentday1"></span><br>
-        
+    <footer>
+        &copy;2019 | Melissa Hall | Utah | <a class="link" href="termsofuse.html">Terms of Use & Content Attributions</a><br>
+        Current Date: <span id="currentday1"></span><br>
+
         <a class="link" href="https://www.byui.edu/online">BYUI Online Learning<br>
-        
-        <script src="js/togglemenu.js"></script>
-        <script src="js/currentday1.js"></script>
+
+            <script src="js/togglemenu.js"></script>
+            <script src="js/currentday1.js"></script>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
         WebFont.load({
             google: {
-                families: ['Source Code Pro', 'Rajdhani', 'Paytone One', 'Aclonica', 'Fondamento', 'Reem Kufi', 'Cinzel Decorative']
+                families: ['Source Code Pro', 'Rajdhani', 'Paytone One', 'Aclonica', 'Fondamento', 'Reem Kufi',
+                    'Cinzel Decorative'
+                ]
             }
         });
     </script>
