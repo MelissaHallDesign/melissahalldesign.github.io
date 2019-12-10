@@ -1,9 +1,12 @@
 main {
-    display: block;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
 }
 body {
     margin: 0 auto;
     background-color: #faf8d4;  
+    
 }
 /*Header*/
 header {
@@ -146,7 +149,7 @@ h2, h3, h4, h5, h6, .mapcontact {
     font-weight: bold;  
     color:#1c3144;
     padding: 10px;
-    margin-top: 60px;
+    margin: 0;
     text-align: center;
 }
 /*End of Headings*/
@@ -158,21 +161,13 @@ p {
     padding: 15px;
     line-height: 10px;
 }
-.herodiv p {
-    font-family: 'Noto Serif', serif;
-    font-size: 17px;
-    color: #1c3144;
-    padding: 15px;
-    /*font-weight: bold;*/
-    /*padding-top: 20px;*/
-    /*padding: 10px;*/
-    line-height: 30px;
-}
 /*End of paragraph text*/
 
 /*Hero Section*/
 .hero {
-    display: block;
+    display: grid;
+    grid-column-start: 1;
+    grid-column-end: span 2;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
@@ -183,6 +178,16 @@ p {
     height: auto;
     margin: 0 auto;
     padding: 30px;
+}
+.herodiv p {
+    font-family: 'Noto Serif', serif;
+    font-size: 17px;
+    color: #1c3144;
+    padding: 15px;
+    /*font-weight: bold;*/
+    /*padding-top: 20px;*/
+    /*padding: 10px;*/
+    line-height: 30px;
 }
 /*End of hero section*/
 
@@ -211,7 +216,7 @@ p {
     justify-content: center;
     margin: 20px;
     background-color: #7ea16b;
-    box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
     max-width: 450px;
 }
 /*.form p {
@@ -287,16 +292,66 @@ textarea {
     height: 10rem;
     border-radius: 5px;
 }
-.contact1 {
-    margin-bottom: 50px;
-}
 /*End of contact flex form*/
 
 /*Contact Us Section*/
-.contact2, .contact4 {
+.contact1 {
+    margin-bottom: 50px;
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+}
+.contact1 p {
+    text-align: center;
+}
+/*Reserve Button Call to Action*/
+/*.reserve {
+    display: grid;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+}*/
+button {
+    display: grid;
+    border-radius: 10px;
+    background-color: #70161e;
+    color: #faf8d4;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    justify-items: center;
+    /*display: grid;
+    grid-row: 1/2;*/
+    max-width: 100px;
+    max-height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    font-family: 'Cinzel decorative', sans-serif;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    width: 50%;
+    max-width: 150px;
+}
+button:hover {
+    background-color: #1c3144;
+    color: #faf8d4;
+}
+.contact2 {
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
     text-align: center;
     max-width: 90%;
     padding: 15px;
+}
+.contact3 {
+    display: grid;
+    grid-row: 3;
+    grid-column: 1;
+}
+.contact4 {
+    display: grid;
+    grid-row: 4;
+    grid-column: 1;
 }
 img.socialIcon {
     width: 50px;
