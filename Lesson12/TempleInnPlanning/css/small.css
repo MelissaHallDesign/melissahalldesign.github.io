@@ -73,7 +73,7 @@ nav button {
     padding: 0;
     overflow: hidden;
     border-left: 1px;
-    font-family: 'Cinzel Decorative', sans-serif;
+    font-family: 'Cinzel Decorative', serif;
     font-size: 30px;
     font-weight: bold;
     border-radius: 5px;
@@ -124,40 +124,49 @@ nav ul{
     display: flex;
     flex-direction: column;
 }
-h2 {
+/*h2 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     line-height: 5px;
     color:#721121;
     text-align: center;
-}
-h3 {
+}*/
+/*h3 {
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;    
     color:#721121;
     padding: 10px;
     margin-top: 60px;
     text-align: center;
-}
-h4, h5, h6, .mapcontact {
+}*/
+h2, h3, h4, h5, h6, .mapcontact {
     font-size: 20px;
     font-family: 'Cinzel Decorative', sans-serif;  
     font-weight: bold;  
     color:#1c3144;
     padding: 10px;
     margin-top: 60px;
+    text-align: center;
 }
 /*End of Headings*/
 /*Paragraph Text*/
 p {
-    font-family: 'Cinzel Decorative', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 17px;
     color: #1c3144;
+    padding: 15px;
+    line-height: 10px;
+}
+.herodiv p {
+    font-family: 'Noto Serif', serif;
+    font-size: 17px;
+    color: #1c3144;
+    padding: 15px;
     /*font-weight: bold;*/
     /*padding-top: 20px;*/
-    /*padding: 10px;
-    line-height: 30px;*/
+    /*padding: 10px;*/
+    line-height: 30px;
 }
 /*End of paragraph text*/
 
@@ -166,11 +175,15 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 100%;
+    padding: 15px;
 }
-/*#heroimg {
+.heroimg {
+    width: 90%;
+    height: auto;
     margin: 0 auto;
-}*/
+    padding: 30px;
+}
 /*End of hero section*/
 
 /*Links*/
@@ -199,6 +212,7 @@ p {
     margin: 20px;
     background-color: #7ea16b;
     box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+    max-width: 450px;
 }
 /*.form p {
     
@@ -219,7 +233,7 @@ p {
     color: #1c3144;
     line-height: 20px;
     margin: 0 0 20px 0;
-    font-family: 'Cinzel decorative', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-size: 15px;
     font-weight: bold;
 }
@@ -241,7 +255,7 @@ p {
 legend, label {
     color: #1c3144;
     padding: 15px;
-    font-family: 'Cinzel decorative', sans-serif;
+    font-family: 'Noto Serif', serif;
     font-weight: 700;
 }
 form label.req, form div {
@@ -307,7 +321,7 @@ img.socialIcon {
  footer {
     background-color: #1c3144;
     color: #c3d898;
-    font-family: 'Cinzel Decorative', sans-serif;
+    font-family: 'Noto Serif', serif;
     /*font-weight: bold;*/
     font-size: 15px;
     text-align: center;
