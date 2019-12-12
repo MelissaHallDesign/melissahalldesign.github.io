@@ -44,18 +44,19 @@
                 <div class="herodiv">
                         <div class=herobutton>
                                 <h2>Reserve your stay</h2>
-                                <button type="button">View Options</button>
+                                <a href="reservation.html"><button type="button">View Options</button></a>
                                 <div class="herothumbimg">
-                                <img src="images/Computer150.jpg">
-                                <img src="images/HotelRoom150.jpg">
-                                <img src="images/Playroom150.jpg">
-                                <img src="images/SittingRoom150.jpg">
+                                <img src="images/Computer150.jpg" alt="computer on a desk">
+                                <img src="images/HotelRoom150.jpg" alt="two white beds in a hotel room">
+                                <img src="images/Playroom150.jpg" alt="colorful play area for children">
+                                <img src="images/SittingRoom150.jpg" alt="couches in a sitting room">
                             </div>
                             </div>
                     <h3>Temple Spotlight</h3>
                         <picture>
-                            
-                            <img class="heroimg" src="images/SLTempleReno500.jpg" alt="Salt Lake Temple Renovation Rendering">
+                            <source srcset="images/SLTempleReno350.jpg" media="(min-width:461px) and (max-width: 650px)">
+                            <source srcset="images/SLTempleReno500.jpg" media="(min-width:651px)">
+                            <img class="heroimg" src="images/SLTempleReno200.jpg" alt="Salt Lake Temple Renovation Rendering">
                         </picture>
                         <p>This month's temple spotlight is the Salt Lake City Temple. Our Salt Lake City location is a popular 
                             place to stay thanks to the historic Salt Lake Temple and Temple Square. 
@@ -69,19 +70,19 @@
                     </div> 
                     <div>
                             <figure>
-                                    <img src="images/SLBaptism150.jpg">
+                                    <img src="images/SLBaptism150.jpg" alt="Baptismal font in Salt Lake Temple">
                                     <figcaption>Salt Lake Temple <br>Baptistry</figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="images/SLEndowment150.jpg">
+                                    <img src="images/SLEndowment150.jpg" alt="Endowment room in Salt Lake Temple">
                                     <figcaption>Salt Lake Temple <br>Endowment Room</figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="images/SLBrideRoom150.jpg">
+                                    <img src="images/SLBrideRoom150.jpg" alt="Bridal room in Salt Lake Temple">
                                     <figcaption>Salt Lake Temple <br>Bride Room</figcaption>
                                 </figure>
                                 <figure>
-                                    <img src="images/SLSealing150.jpg">
+                                    <img src="images/SLSealing150.jpg" alt="Sealing room in Salt Lake Temple">
                                     <figcaption>Salt Lake Temple <br>Sealing Room</figcaption>
                                 </figure>
                     </div>
@@ -89,7 +90,7 @@
         <section class="contact1">
             <div class="reserve">
                 <h4>Reserve your stay</h4>
-                <button type="button">View Options</button>
+                <a href="reservation.html"><button type="button">View Options</button></a>
             </div>
             
         <div>
@@ -120,7 +121,9 @@
                                 <label class="req"> Comments or Questions
                                     <textarea name="comments" placeholder="Enter text here"></textarea></label>
                                 </fieldset>
+                                <div class="submitdiv">
                                 <input type="submit" value="Submit" class="submitButton">
+                            </div>
                             </form>
                         </div>
                     </div>

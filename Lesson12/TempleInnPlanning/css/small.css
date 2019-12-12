@@ -1,6 +1,6 @@
 main {
     display: grid;
-    grid-template-columns: 50% 50%;
+    /*grid-template-columns: 50% 50%;*/
     /*grid-template-rows: 33% 33% 33%;*/
     column-gap: 10px;
     row-gap: 10px;
@@ -166,6 +166,9 @@ p {
 /*End of paragraph text*/
 
 /*Hero Section*/
+.herobutton a {
+    text-decoration: none;
+}
 .hero {
     display: grid;
     grid-column-start: 1;
@@ -196,9 +199,9 @@ p {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 10px;
-    column-gap: 10px;
-    justify-items: center;
+    row-gap: 5px;
+    column-gap: 5px;
+    align-self: center;
 }
 figure {
     display: inline-block;
@@ -233,6 +236,9 @@ figure img {
     list-style: none;
     color: #faf8d4;
 }
+.link:hover {
+    color: #7ea16b;
+}
 /*End of Links*/
 
 /*Contact Flex Form*/
@@ -250,9 +256,9 @@ figure img {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
+    /*margin: 20px;*/
     background-color: #7ea16b;
-    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    box-shadow: 0 5px 5px rgba(0,0,0,0.5);
     max-width: 450px;
 }
 /*.form p {
@@ -264,6 +270,9 @@ figure img {
     width: 100%;
 
 }*/
+legend {
+    padding-top: 10px;
+}
 .form-text h4 {
     font-weight: bold;
     font-size: 20px;
@@ -290,10 +299,16 @@ figure img {
 .form-text {
     margin: 30px 20px;
 }
-.form-text textarea {
+/*.form-text textarea {
     width: 100%;
+}*/
+legend {
+    color: #1c3144;
+    /*padding: 15px;*/
+    font-family: 'Cinzel decorative', sans-serif;
+    font-weight: 700;
 }
-legend, label {
+label {
     color: #1c3144;
     padding: 15px;
     font-family: 'Noto Serif', serif;
@@ -302,6 +317,11 @@ legend, label {
 form label.req, form div {
     display: flex;
     flex-direction: column;
+}
+form textarea {
+    padding: 10px;
+    margin: 5px;
+    align-items: center;
 }
 form input.submitButton {
     padding: 10px;
@@ -316,17 +336,22 @@ form input.submitButton {
     max-width: 150px;
 }
 form label.req input:required {
-    border-left: #1c3144 solid 7px;
+    border-left: #70161e solid 7px;
     border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
 }
 form label.req input:required:valid {
-    border-left: #7ea16b solid 7px;
+    border-left: green solid 7px;
     border-radius: 5px;
 }
 textarea {
     width: 90%;
-    height: 10rem;
+    height: 5rem;
     border-radius: 5px;
+}
+.submitdiv {
+    align-items: center;
 }
 /*End of contact flex form*/
 
@@ -347,6 +372,9 @@ textarea {
     grid-row-start: 2;
     grid-column-start: 2;
     grid-column-end: span 2;*/
+}
+.reserve a {
+    text-decoration: none;
 }
 button {
     display: grid;
@@ -370,6 +398,9 @@ button:hover {
     background-color: #1c3144;
     color: #faf8d4;
 }
+/*End of Reserve Button Call to Action*/
+
+/*Contact Areas - Home Page*/
 .contact1, .contact2, .contact3, .contact4 {
     display: grid;
     grid-column: 1;
@@ -382,6 +413,44 @@ img.socialIcon {
     height: auto;
     padding: 20px;
 }
+/*End of Contact Areas - Home Page*/
+/*Reservation Page*/
+.amenities ul li {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+}
+.amenities, .resform, .rescontact, .resmap, .ressocialmedia {
+    display: grid;
+    grid-column: 1;
+    margin: 0 auto;
+    /*grid-column-start: 1;
+    grid-column-end: span 2;*/
+}
+.resh2 {
+    grid-column: span 2;
+}
+.rescontact {
+    text-align: center;
+}
+.resthumbimg {
+    display: grid;
+    justify-items: center;
+    row-gap: 10px;
+    /*margin: 0 auto;
+    column-gap: 20px;
+    row-gap: 20px;*/
+}
+.resform, .rescontact, .ressocialmedia {
+    grid-column: span 2;
+}
+/*End of Reservation Page*/
+
+/*Confirmation Page*/
+.wholeconfpage {
+    text-align: center;
+    justify-items: center;
+}
+/*End of Confirmation Page*/
 /*
 .map {
     margin: 0 auto;
@@ -402,7 +471,7 @@ img.socialIcon {
  /*Footer*/
  footer {
     background-color: #1c3144;
-    color: #c3d898;
+    color: #faf8d4;
     font-family: 'Noto Serif', serif;
     /*font-weight: bold;*/
     font-size: 15px;
