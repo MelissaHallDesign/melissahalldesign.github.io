@@ -103,4 +103,13 @@
         grid-column-start: span 2;
         grid-row: 3;
     }
+    .resform {
+        grid-column: 1;
+    }
+    .rescontact, .resmap {
+        grid-column: 2;
+    }
+    .ressocialmedia {
+        grid-column-start: span 2;
+    }
 }

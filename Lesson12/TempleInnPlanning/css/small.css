@@ -481,3 +481,10 @@ img.socialIcon {
     line-height: 25px;
 }
  /*End of Footer*/
+ /*Contact Page*/
+ .reservecontact  {
+    margin-top: 25px;
+ }
+ .reservecontact a {
+     text-decoration: none;
+ }
