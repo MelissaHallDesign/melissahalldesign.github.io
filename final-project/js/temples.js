@@ -1,27 +1,29 @@
-const requestURL = 'json/temple.json';
+const requestURL = 'https://melissahalldesign.github.io/final-project/json/temple.json';
 fetch(requestURL) 
     .then(function (response) {
         return response.json();
     })
     .then(function (jsonObject) {
-        const prophets = jsonObject['prophets'];
+        const temples = jsonObject['temples'];
         //console.table(jsonObject); //temporary testing
-        for (let i = 0; i < prophets.length; i++) { 
-            let card = document.createElement('section');
+        for (let i = 0; i < temples.length; i++) { 
+            let templecard = document.createElement('section');
             let h2 = document.createElement('h2');
-            let birthdate = document.createElement('p');
-            let birthplace = document.createElement('p');
+            let templename = document.createElement('p');
+            let address = document.createElement('p');
+            let phone = document.createElement('p');
             let image = document.createElement('img');
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            birthplace.textContent =  'Place of Birth: ' + prophets[i].birthplace;
-            image.textContent = prophets[i].name + ' ' + prophets[i].imageurl;
-            image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
-            card.appendChild(h2);
-            card.appendChild(birthdate);
-            card.appendChild(birthplace);
-            card.appendChild(image);
-            document.querySelector('div.cards').appendChild(card);
+            h2.textContent = temples[i].templename + ' ' + temples[i].templename;
+            address.textContent = 'Date of Birth: ' + temples[i].address;
+            phone.textContent =  'Place of Birth: ' + temples[i].phone;
+            image.textContent = temples[i].templename + ' ' + temples[i].imageurl;
+            image.setAttribute('src', temples[i].imageurl);
+            image.setAttribute('alt', temples[i].templename + ' ' + temples[i].templename + ' - ' + temples[i].order);
+            templecard.appendChild(h2);
+            templecard.appendChild(templename);
+            templecard.appendChild(address);
+            templecard.appendChild(phone);
+            templecard.appendChild(image);
+            document.querySelector('div.templecards').appendChild(templecard);
         }
     });
