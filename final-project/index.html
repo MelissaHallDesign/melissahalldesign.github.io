@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Temple Inn & Suites | Temple</title>
-    <meta name="description" content="Melissa Hall Temple Inn & Suites Site | Temple Page | CIT 230">
+    <title>Temple Inn & Suites | Home</title>
+    <meta name="description" content="Melissa Hall Temple Inn & Suites Site CIT 230">
     <link rel="shortcut icon" href="faviconBlue.ico">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/small.css" rel="stylesheet">
@@ -29,8 +29,8 @@
             </section>
             <ul class="navigation">
                 <li><a href="#" onclick="toggleMenu()">&#9776;Menu</a></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a class="current" href="temple.html">Temple</a></li>
+                <li><a class="current" href="index.html">Home</a></li>
+                <li><a href="temple.html">Temple</a></li>
                 <li><a href="reservation.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -40,9 +40,53 @@
     </header>
 
     <main>
-        <h2>Temples We're Near</h2>
-        <section>
-        <div class="templecards"></div>
+        <section class="hero">
+                <div class="herodiv">
+                        <div class=herobutton>
+                                <h2>Reserve your stay</h2>
+                                <button onclick="location.href='reservation.html'" type="button">
+                                        View Options</button>
+                                <div class="herothumbimg">
+                                <img src="images/Computer150Op.jpg" alt="computer on a desk">
+                                <img src="images/HotelRoom150Op.jpg" alt="two white beds in a hotel room">
+                                <img src="images/Playroom150Op.jpg" alt="colorful play area for children">
+                                <img src="images/SittingRoom150Op.jpg" alt="couches in a sitting room">
+                            </div>
+                            </div>
+                    <h3>Temple Spotlight</h3>
+                        <picture>
+                            <source srcset="images/SLTempleReno350Op.jpg" media="(min-width:461px) and (max-width: 650px)">
+                            <source srcset="images/SLTempleReno500Op.jpg" media="(min-width:651px)">
+                            <img class="heroimg" src="images/SLTempleReno200Op.jpg" alt="Salt Lake Temple Renovation Rendering">
+                        </picture>
+                        <p>This month's temple spotlight is the Salt Lake City Temple. Our Salt Lake City location is a popular 
+                            place to stay thanks to the historic Salt Lake Temple and Temple Square. 
+                            At the end of December 2019, the Salt Lake Temple will be undergoing a major renovation. In this photo 
+                            rendering courtesy of <a href="https://www.churchofjesuschrist.org/?lang=eng">churchofjesuschrist.org,</a> you 
+                            can see the beautiful updates that will be made to Temple Square. Don't let this renovation keep you away from 
+                            visiting us! The Salt Lake valley has 4 other temples within a 20 minute drive of our inn. Come visit us and enjoy 
+                            the temples and history of the Salt Lake region.
+                            The renovations on the Salt Lake Temple are expected to finish in 2023.
+                        </p>
+                    </div> 
+                    <div>
+                            <figure>
+                                    <img src="images/SLBaptism150Op.jpg" alt="Baptismal font in Salt Lake Temple">
+                                    <figcaption>Salt Lake Temple <br>Baptistry</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/SLEndowment150Op.jpg" alt="Endowment room in Salt Lake Temple">
+                                    <figcaption>Salt Lake Temple <br>Endowment Room</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/SLBrideRoom150Op.jpg" alt="Bridal room in Salt Lake Temple">
+                                    <figcaption>Salt Lake Temple <br>Bride Room</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="images/SLSealing150Op.jpg" alt="Sealing room in Salt Lake Temple">
+                                    <figcaption>Salt Lake Temple <br>Sealing Room</figcaption>
+                                </figure>
+                    </div>
         </section>
         <section class="contact1">
             <div class="reserve">
@@ -115,7 +159,6 @@
 
             <script src="js/togglemenu.js"></script>
             <script src="js/currentday1.js"></script>
-            <script src="js/temples.js"></script>
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>
