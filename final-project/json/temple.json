@@ -2,7 +2,15 @@
   "temples" : [
     {
       "templename" : "Bountiful Utah Temple",
+      "imageurl": "https://melissahalldesign.github.io/final-project/images/Bountiful400Op.jpg",
       "templeaddress" : "640 S Bountiful Blvd, Bountiful, UT 84010",
+      "phone" : "1-801-296-2100",
+      "email" : "Login to churchofjesuschrist.org account to send email",
+      "services" : "Clothing rental available, cafeteria. Distribution center nearby. No patron housing.",
+      "history" : "Announced: 2 February 1990, Groundbreaking: 2 May 1992, Dedicated: 8 January 1995",
+      "bapschedule" : "Tuesday & Wednesday 4:30 AM - 3:00 PM & 4:00 PM - 9:00 PM, Thursday 4:30 AM - 9:00 PM, Friday 5:30 PM - 9:00 PM, Saturday 5:30 AM - 3:00 PM & 4:00 PM - 9:00 PM",
+      "inischedule" : "Tuesday - Saturday 6:00 AM - 8:30 PM",
+      "sealschedule" : "Tuesday - Saturday 6:30 AM - 9:30 AM",
       "closure" : [
       "Tuesday, 24 December 2019",
       "Wednesday, 25 December 2019",
@@ -25,7 +33,15 @@
     },
     {
       "templename" : "Manti Utah Temple",
+      "imageurl": "https://melissahalldesign.github.io/final-project/images/Manti400Op.jpg",
       "templeaddress" : "200 E 510 N, Manti, UT 84642",
+      "phone" : "1-435-835-2291",
+      "email" : "Login to churchofjesuschrist.org account to send email",
+      "services" : "Clothing rental available, cafeteria. Distribution center nearby. No patron housing.",
+      "history" : "Announced: 25 June 1875, Groundbreaking: 25 April 1877, Dedicated: 21 May 1888, Rededicated: 14 June 1985",
+      "bapschedule" : "Tuesday - Thursday 6:30 AM - 8:00 PM, Friday 6:30 AM - 7:30 PM, Saturday 6:30 AM - 5:00 PM",
+      "inischedule" : "Tuesday - Friday 7:00 AM - 8:00 PM. Saturday 7:00 AM - 7:00 PM",
+      "sealschedule" : "Tuesday - Friday 7:00 AM - 8:20 PM, Saturday 7:00 AM - 7:20 PM",
       "closure" : [
         "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
         "Tuesday, 31 December 2019",
@@ -45,7 +61,15 @@
     },
     {
       "templename" : "Nauvoo Illinois Temple",
+      "imageurl": "https://melissahalldesign.github.io/final-project/images/Nauvoo400Op.jpg",
       "templeaddress" : "50 N Wells St, Nauvoo, IL 62354",
+      "phone" : "1-217-453-6252",
+      "email" : "Login to churchofjesuschrist.org account to send email",
+      "services" : "Clothing rental available. No cafeteria, distribution center, or patron housing.",
+      "history" : "Announced: 4 April 1999, Groundbreaking: 24 October 1999, Dedicated: 27 June 2002",
+      "bapschedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday 3:00 PM - 8:00 PM, Friday 3:00 PM - 7:00 PM, Saturday 8:00 AM - 7:00 PM",
+      "inischedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday & Friday 3:00 PM - 7:30 PM. Saturday 8:00 AM - 6:30 PM",
+      "sealschedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday & Friday 3:00 PM - 8:00 PM, Saturday 8:00 AM - 7:00 PM",
       "closure" : [
         "Wednesday, 25 December 2019",
         "Saturday, 4 April 2020",
@@ -58,7 +82,15 @@
     },
     {
       "templename" : "Winter Quarters Nebraska Temple",
+      "imageurl": "https://melissahalldesign.github.io/final-project/images/WinterQ400Op.jpg",
       "templeaddress" : "8283 N 34th St, Omaha, NE 68112",
+      "phone" : "1-402-453-3406",
+      "email" : "Login to churchofjesuschrist.org account to send email",
+      "services" : "No clothing rental, cafeteria, distribution center, or patron housing.",
+      "history" : "Announced: 14 June 1999, Groundbreaking: 28 November 1999, Dedicated: 22 April 2001",
+      "bapschedule" : "Tuesday - Thursday 6:30 PM - 8:00 PM, Friday 6:00 PM - 8:00 PM, Saturday 8:30 AM - 10:00 AM, 10:30 AM - 12:00 PM, 12:30 PM - 2:00 PM, 2:30 PM - 4:00 PM",
+      "inischedule" : "Tuesday & Thursday 5:30 PM - 7:00 PM & 7:45 PM - 8:45 PM, Wednesday 9:00 AM - 12:00 PM & 6:30 PM - 8:00 PM. Friday 9:30 AM - 11:00 AM & 12:00 PM - 1:00 PM. Saturday 7:30 AM - 9:00 AM & 10:00 AM - 11:00 AM",
+      "sealschedule" : "Tuesday & Thursday 6:00 PM - 7:00 PM & 7:45 PM - 8:45 PM, Wednesday 9:30 AM - 10:30 AM, 11:15 AM - 12:15 PM, 7:00 PM - 8:00 PM. Friday 10:00 AM - 11:00 AM, 12:00 PM - 1:00 PM, 6:00 PM - 7:00 PM, 7:45 PM - 8:45 PM. Saturday 8:00 AM - 9:00 AM, 10:00 AM - 11:00 AM, 12:00 PM - 1:00 PM, 2:00 - 3:00 PM, 4:00 PM - 5:00 PM, 6:00 PM - 7:00 PM",
       "closure" : [
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
