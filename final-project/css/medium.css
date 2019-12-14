@@ -112,4 +112,8 @@
     .ressocialmedia {
         grid-column-start: span 2;
     }
+    /*Temple Page*/
+    .templecards {
+        grid-template-columns: 1fr 1fr;
+    }
 }

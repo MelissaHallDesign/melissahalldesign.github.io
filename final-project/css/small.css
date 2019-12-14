@@ -204,6 +204,16 @@ p {
     align-self: center;
     justify-items: center;
 }
+figure img[data-src] {
+    filter: blur(0.2em);
+  }
+
+figure img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+    width: 100%;
+    height: auto;
+}
 figure {
     display: inline-block;
     /*grid-template-columns: 1fr;
@@ -491,14 +501,13 @@ img.socialIcon {
  }
  .templecards {
     display: grid;
+    max-width: 90%;
     /*grid-template-columns: 1fr;*/
     text-align: center;
-    justify-items: center;
     column-gap: 10px;
     row-gap: 10px;
     font-family: 'Noto Serif', serif;
     margin: 0 auto;
-    align-content: center;
 }
 .templecards section {
     border: #1c3144 solid 1px;
