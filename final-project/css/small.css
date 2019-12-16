@@ -571,3 +571,24 @@ img.socialIcon {
  .reservecontact a {
      text-decoration: none;
  }
+ /*Terms of Use Page*/
+ .terms {
+     display: grid;
+     grid-column-start: span 2;
+ }
+ .termuseh {
+    font-size: 20px;
+    font-family: 'Cinzel Decorative', sans-serif;  
+    font-weight: bold;  
+    color:#1c3144;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+ }
+ .terms p {
+    font-family: 'Noto Serif', serif;
+    font-size: 17px;
+    color: #1c3144;
+    padding: 15px;
+    line-height: 30px;
+ }
