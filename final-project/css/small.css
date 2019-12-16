@@ -524,6 +524,46 @@ img.socialIcon {
     height: auto;
     box-shadow: black 0 0 10px;
 }
+.weathersummaryB, .weathersummaryM, .weathersummaryN, .weathersummaryW {
+    background-color:#1c3144;
+    padding: 5px;
+    max-width: 60%;
+    margin: 0 auto;
+    /*top: 25px;
+    left: 25px;*/
+    /*position: absolute;*/
+    box-shadow: inset 0 0 2px 2px #7ea16b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+/*.weathersummary span:nth-child(even){
+    padding-left: 5px;
+}*/
+.weathersummary1 {
+    color: #faf8d4;
+    font-size: 15px;
+    padding: 5px;
+    /*line-height: 1px;*/
+    font-family: 'Noto Serif', serif;
+    text-align: right;
+}
+.weathersummary2 {
+    color: #7ea16b;
+    font-size: 15px;
+    padding: 5px;
+    /*line-height: 1px;*/
+    font-family: 'Noto Serif', serif;
+    text-align: left;
+}
+.weathersummaryB p, .weathersummaryM p, .weathersummaryN p, .weathersummaryW p {
+    color: #faf8d4;
+    font-size: 15px;
+    /*line-height: 1px;*/
+    font-family: 'Noto Serif', serif;
+    text-align: center;
+    grid-column-end: 2 span;
+    /*border-bottom: 1px solid #e59500;*/
+}
  /*Contact Page*/
  .reservecontact  {
     margin-top: 25px;
