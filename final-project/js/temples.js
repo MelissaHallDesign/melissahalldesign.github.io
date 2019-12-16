@@ -32,7 +32,7 @@ fetch(requestURL)
             closure.textContent = 'Closure schedule: ' + temples[i].closure;
             image.textContent = temples[i].templename + ' ' + temples[i].imageurl;
             image.setAttribute('src', temples[i].imageurl);
-            image.setAttribute('alt', temples[i].templename);
+            image.setAttribute('alt', 'Outside of' + temples[i].templename);
             templecard.appendChild(h2);
             templecard.appendChild(templename);
             templecard.appendChild(image);
@@ -48,19 +48,3 @@ fetch(requestURL)
             document.querySelector('div.templecards').appendChild(templecard);
         }
     });
-
-    /*
-            h2.textContent = prophets[i].name + ' ' + prophets[i].lastname;
-            birthdate.textContent = 'Date of Birth: ' + prophets[i].birthdate;
-            birthplace.textContent =  'Place of Birth: ' + prophets[i].birthplace;
-            image.textContent = prophets[i].name + ' ' + prophets[i].imageurl;
-            image.setAttribute('src', prophets[i].imageurl);
-            image.setAttribute('alt', prophets[i].name + ' ' + prophets[i].lastname + ' - ' + prophets[i].order);
-            card.appendChild(h2);
-            card.appendChild(birthdate);
-            card.appendChild(birthplace);
-            card.appendChild(image);
-            document.querySelector('div.cards').appendChild(card);
-        }
-    });
-    */
