@@ -5,25 +5,25 @@ fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
     //console.log(jsObject);
-    document.getElementById('current-temp')
+    document.getElementById('bcurrent-temp')
     .textContent = jsObject.weather[0].description;
-    document.getElementById('temp')
+    document.getElementById('btemp')
     .textContent = jsObject.main.temp_max;
-    document.getElementById('humidity')
+    document.getElementById('bhumidity')
     .textContent = jsObject.main.humidity;
-    document.getElementById('speed')
+    document.getElementById('bspeed')
     .textContent = jsObject.wind.speed;
 
-    runWindChill();
+    runWindChillB();
   });
-  function runWindChill(){
-    var temp = parseFloat(document.getElementById('temp').textContent);
-    var speed = parseFloat(document.getElementById('speed').textContent);
+  function runWindChillB(){
+    var temp = parseFloat(document.getElementById('btemp').textContent);
+    var speed = parseFloat(document.getElementById('bspeed').textContent);
   if (temp <= 50 && speed >= 3) {
     var calc = 35.74 + temp * 0.6215 - 35.75 * Math.pow(speed, 0.16) + 0.4275 * temp * Math.pow(speed, 0.16);
-    document.getElementById('calc').innerHTML = Math.round(calc);
+    document.getElementById('bcalc').innerHTML = Math.round(calc);
 }
   else {
-    document.getElementById('calc').innerHTML = 'N/A';
+    document.getElementById('bcalc').innerHTML = 'N/A';
 }
 }

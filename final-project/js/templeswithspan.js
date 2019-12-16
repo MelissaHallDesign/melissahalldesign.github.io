@@ -20,6 +20,7 @@ fetch(requestURL)
             let sealschedule = document.createElement('p');
             let closure = document.createElement('p');
             let image = document.createElement('img');
+            let jsfile = document.createElement('span');
             h2.textContent = temples[i].templename;
             templeaddress.textContent = temples[i].templeaddress;
             phone.textContent = temples[i].phone;
@@ -31,8 +32,10 @@ fetch(requestURL)
             sealschedule.textContent = 'Sealings schedule: ' + temples[i].sealschedule;
             closure.textContent = 'Closure schedule: ' + temples[i].closure;
             image.textContent = temples[i].templename + ' ' + temples[i].imageurl;
+            span.textContent = temples[i].jsfile;
             image.setAttribute('src', temples[i].imageurl);
             image.setAttribute('alt', temples[i].templename);
+            span.setAttribute('src', temples[i].jsfile);
             templecard.appendChild(h2);
             templecard.appendChild(templename);
             templecard.appendChild(image);
@@ -45,6 +48,7 @@ fetch(requestURL)
             templecard.appendChild(inischedule);
             templecard.appendChild(sealschedule);
             templecard.appendChild(closure);
+            templecard.appendChild(jsfile);
             document.querySelector('div.templecards').appendChild(templecard);
         }
     });
