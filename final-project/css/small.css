@@ -349,6 +349,9 @@ img.socialIcon {
     text-align: center;
     justify-items: center;
 }
+.confdiv p {
+    line-height: 30px;
+}
 /*End of Confirmation Page*/
  /*Footer*/
  footer {
