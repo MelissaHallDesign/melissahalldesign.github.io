@@ -1,12 +1,8 @@
 @media only screen and (min-width: 37.5em) {
 	main, footer{
-        /*max-width: 760px;*/
         max-width: 100%;
         margin: auto;
     }
-    /*.hideonsmall5day, .hideonsmallmap {
-        display: unset;
-    }*/
     .navigation {
         display: flex;
         justify-content: space-around;
@@ -24,17 +20,6 @@
     #menu {
         display: none;
     } 
-    /*.navigation ul li a:hover {
-        background-color: #e59500;
-    }*/
-    /*.contactdiv {
-        float: right;
-    }
-    /*.contactdivfish {
-        float: right;
-        margin-right: 0;
-        width: 50%;
-    }*/
     .heroimg {
         margin-top: 30px;
         float: left;
@@ -52,10 +37,6 @@
     figure {
         grid-template-columns: 1fr 1fr 1fr;
     }
-    
-    /*.contact2, .contact3, .contact4 {
-        grid-template-columns: 1fr 1fr;
-    }*/
     .contact1 {
         margin: 0;
         grid-column-end: unset;
@@ -116,29 +97,4 @@
     .templecards {
         grid-template-columns: 1fr 1fr;
     }
-    /*Services Page*/
-    /*.svcthumbimg {
-        display: grid;
-        row-gap: 10px;
-    }
-    .svcamenities {
-        display: grid;
-        grid-column: 1;
-        margin: 0 auto;
-    }
-    .svcform {
-        text-align: center;
-        display: grid;
-        grid-column: 1;
-        margin: 0 auto;
-    }
-    .svccontact, .svcmap {
-        text-align: center;
-        display: grid;
-        grid-column: 2;
-    }
-    .svcsocialmedia {
-        grid-column-end: span 2;
-        margin: 0 auto;
-    }*/
 }
