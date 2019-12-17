@@ -609,6 +609,7 @@ img.socialIcon {
 .svcthumbimg {
     /*display: grid;*/
     row-gap: 10px;
+    padding: 10px;
 }
 .svcamenities {
     display: grid;
