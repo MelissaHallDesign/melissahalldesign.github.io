@@ -201,27 +201,26 @@ p {
     grid-template-columns: 1fr 1fr;
     row-gap: 5px;
     column-gap: 5px;
-    /*align-self: center;
-    justify-items: center;*/
-    /*padding: 10px;*/
+    align-self: center;
+    justify-items: center;
 }
-/*figure img[data-src] {
+figure img[data-src] {
     filter: blur(0.2em);
   }
-*/
-/*figure img {
+
+figure img {
     filter: blur(0em);
     transition: filter 0.5s;
     width: 100%;
     height: auto;
-}*/
-/*figure {
+}
+figure {
     display: inline-block;
     /*grid-template-columns: 1fr;
     column-gap: 10px;*/
     /*justify-content: center;
     align-content: center;*/
-/*}
+}
 figcaption {
     background-color:hsl(208, 42%, 19%, .5);
     color: #000501;
@@ -272,7 +271,6 @@ figure img {
     background-color: #7ea16b;
     box-shadow: 0 5px 5px rgba(0,0,0,0.5);
     max-width: 450px;
-    margin-left: 10px;
 }
 /*.form p {
     
@@ -386,7 +384,7 @@ textarea {
     grid-column-start: 2;
     grid-column-end: span 2;*/
 }
-.reserve a, .svcreserve a {
+.reserve a {
     text-decoration: none;
 }
 button {
@@ -447,7 +445,7 @@ img.socialIcon {
 }
 .resthumbimg {
     display: grid;
-    /*justify-items: center;*/
+    justify-items: center;
     row-gap: 10px;
     /*margin: 0 auto;
     column-gap: 20px;
@@ -540,7 +538,7 @@ img.socialIcon {
     grid-row: 1;
     margin: 0 auto;
  }
- .templecards {
+ .btemplecard, .mtemplecard {
     display: grid;
     max-width: 90%;
     /*grid-template-columns: 1fr;*/
@@ -550,17 +548,17 @@ img.socialIcon {
     font-family: 'Noto Serif', serif;
     margin: 0 auto;
 }
-.templecards section {
+.btemplecard section, .mtemplecard section {
     border: #1c3144 solid 1px;
     width: 100%;
     height: auto;
     background-color: #7ea16b;
 }
-.templecards p {
+.btemplecard p, .mtemplecard p {
     font-size: 15px;
     line-height: 30px;
 }
-.templecards img {
+.bemplecard img, .mtemplecard img {
     width: 150px;
     height: auto;
     box-shadow: black 0 0 10px;
@@ -605,36 +603,6 @@ img.socialIcon {
     grid-column-end: 2 span;
     /*border-bottom: 1px solid #e59500;*/
 }
-/*Services Page*/
-.svcthumbimg {
-    /*display: grid;*/
-    row-gap: 10px;
-}
-.svcamenities {
-    display: grid;
-    grid-column: 1;
-    margin: 0 auto;
-    grid-column-start: span 2;
-}
-.svcamenities ul li {
-    font-family: 'Noto Serif', serif;
-    font-size: 15px;
-}
-/*
-.svcform {
-    text-align: center;
-    display: grid;
-    grid-column: 1;
-    margin: 0 auto;
-}
-.svccontact, .svcmap {
-    text-align: center;
-    display: grid;
-}
-.svcsocialmedia {
-    
-    margin: 0 auto;
-}*/
  /*Contact Page*/
  .reservecontact  {
     margin-top: 25px;

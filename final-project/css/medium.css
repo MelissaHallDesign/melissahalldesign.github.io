@@ -50,7 +50,7 @@
         max-width: 100%;
     }
     figure {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
     
     /*.contact2, .contact3, .contact4 {
@@ -116,4 +116,29 @@
     .templecards {
         grid-template-columns: 1fr 1fr;
     }
+    /*Services Page*/
+    /*.svcthumbimg {
+        display: grid;
+        row-gap: 10px;
+    }
+    .svcamenities {
+        display: grid;
+        grid-column: 1;
+        margin: 0 auto;
+    }
+    .svcform {
+        text-align: center;
+        display: grid;
+        grid-column: 1;
+        margin: 0 auto;
+    }
+    .svccontact, .svcmap {
+        text-align: center;
+        display: grid;
+        grid-column: 2;
+    }
+    .svcsocialmedia {
+        grid-column-end: span 2;
+        margin: 0 auto;
+    }*/
 }
