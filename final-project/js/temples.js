@@ -1,4 +1,4 @@
-const requestURL = 'https://api.myjson.com/bins/nd9rc';
+const requestURL = 'https://api.myjson.com/bins/123epo';
 fetch(requestURL) 
     .then(function (response) {
         return response.json();
@@ -18,6 +18,7 @@ fetch(requestURL)
             let bapschedule = document.createElement('p');
             let inischedule = document.createElement('p');
             let sealschedule = document.createElement('p');
+            let endschedule = document.createElement('p');
             let closure = document.createElement('p');
             let image = document.createElement('img');
             h2.textContent = temples[i].templename;
@@ -29,6 +30,7 @@ fetch(requestURL)
             bapschedule.textContent = 'Baptism schedule: ' + temples[i].bapschedule;
             inischedule.textContent = 'Initiatory schedule: ' + temples[i].inischedule;
             sealschedule.textContent = 'Sealings schedule: ' + temples[i].sealschedule;
+            endschedule.textContent = 'Endowment schedule: ' + temples[i].endschedule;
             closure.textContent = 'Closure schedule: ' + temples[i].closure;
             image.textContent = temples[i].templename + ' ' + temples[i].imageurl;
             image.setAttribute('src', temples[i].imageurl);
@@ -44,6 +46,7 @@ fetch(requestURL)
             templecard.appendChild(bapschedule);
             templecard.appendChild(inischedule);
             templecard.appendChild(sealschedule);
+            templecard.appendChild(endschedule);
             templecard.appendChild(closure);
             document.querySelector('div.templecards').appendChild(templecard);
         }

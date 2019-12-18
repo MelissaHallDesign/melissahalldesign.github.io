@@ -12,6 +12,7 @@
       "bapschedule" : "Tuesday & Wednesday 4:30 AM - 3:00 PM & 4:00 PM - 9:00 PM, Thursday 4:30 AM - 9:00 PM, Friday 5:30 PM - 9:00 PM, Saturday 5:30 AM - 3:00 PM & 4:00 PM - 9:00 PM",
       "inischedule" : "Tuesday - Saturday 6:00 AM - 8:30 PM",
       "sealschedule" : "Tuesday - Saturday 6:30 AM - 9:30 AM",
+      "endschedule" : "Tuesday - Saturday 6:00 AM - 8:00 PM",
       "closure" : [
       "Tuesday, 24 December 2019",
       "Wednesday, 25 December 2019",
@@ -44,6 +45,7 @@
       "bapschedule" : "Tuesday - Thursday 6:30 AM - 8:00 PM, Friday 6:30 AM - 7:30 PM, Saturday 6:30 AM - 5:00 PM",
       "inischedule" : "Tuesday - Friday 7:00 AM - 8:00 PM. Saturday 7:00 AM - 7:00 PM",
       "sealschedule" : "Tuesday - Friday 7:00 AM - 8:20 PM, Saturday 7:00 AM - 7:20 PM",
+      "endschedule" : "Tuesday - Friday 7:30 AM - 7:30 PM, Saturday 7:30 AM - 6:30 PM",
       "closure" : [
         "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
         "Tuesday, 31 December 2019",
@@ -73,6 +75,7 @@
       "bapschedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday 3:00 PM - 8:00 PM, Friday 3:00 PM - 7:00 PM, Saturday 8:00 AM - 7:00 PM",
       "inischedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday & Friday 3:00 PM - 7:30 PM. Saturday 8:00 AM - 6:30 PM",
       "sealschedule" : "Tuesday & Thursday 9:00 AM - 2:00 PM, Wednesday & Friday 3:00 PM - 8:00 PM, Saturday 8:00 AM - 7:00 PM",
+      "endschedule" : "Tuesday & Thursday 9:00 AM - 12:00 PM, Wednesday & Friday 3:00 PM - 6:00 PM, Saturday 8:00 AM - 5:00 PM",
       "closure" : [
         "Wednesday, 25 December 2019",
         "Saturday, 4 April 2020",
@@ -95,6 +98,7 @@
       "bapschedule" : "Tuesday - Thursday 6:30 PM - 8:00 PM, Friday 6:00 PM - 8:00 PM, Saturday 8:30 AM - 10:00 AM, 10:30 AM - 12:00 PM, 12:30 PM - 2:00 PM, 2:30 PM - 4:00 PM",
       "inischedule" : "Tuesday & Thursday 5:30 PM - 7:00 PM & 7:45 PM - 8:45 PM, Wednesday 9:00 AM - 12:00 PM & 6:30 PM - 8:00 PM. Friday 9:30 AM - 11:00 AM & 12:00 PM - 1:00 PM. Saturday 7:30 AM - 9:00 AM & 10:00 AM - 11:00 AM",
       "sealschedule" : "Tuesday & Thursday 6:00 PM - 7:00 PM & 7:45 PM - 8:45 PM, Wednesday 9:30 AM - 10:30 AM, 11:15 AM - 12:15 PM, 7:00 PM - 8:00 PM. Friday 10:00 AM - 11:00 AM, 12:00 PM - 1:00 PM, 6:00 PM - 7:00 PM, 7:45 PM - 8:45 PM. Saturday 8:00 AM - 9:00 AM, 10:00 AM - 11:00 AM, 12:00 PM - 1:00 PM, 2:00 - 3:00 PM, 4:00 PM - 5:00 PM, 6:00 PM - 7:00 PM",
+      "endschedule" : "Tuesday & Thursday 6:00 PM & 7:30 PM, Wednesday 9:30 AM, 11:00 AM, & 7:00 PM, Friday 10:00 AM, 12:00 PM, 6:00 PM, & 7:30 PM. Saturday 8:00 AM - 6:00 PM",
       "closure" : [
         "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
         "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
