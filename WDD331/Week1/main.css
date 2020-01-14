@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+main {
+    background-color: #FAEBD7;
+}
+
+header {
+    background-color: #6495ED;
+    text-align: right;
+    padding: 20px;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: sans-serif;
+    line-height: 30px;
+}
+
+nav ul li a {
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+nav ul li a:active {
+    color: #DEB887;
+}
+
+nav ul li a:visited {
+    color: #FAEBD7;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+h1 a {
+    text-decoration: none;
+    color: #FAEBD7;
+}
+h1 a:visited {
+    color: #FAEBD7;
+}
+
+h2 {
+    font-family: 'Lora', serif;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h2 a {
+    color: black;
+    text-decoration: none;
+    text-align: left;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-size: 30px;
+}
+h2 a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+h2 a:active {
+    color: #DEB887;
+}
+
+h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #FAEBD7;
+}
+
+a {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6495ED;
+    text-decoration: none;
+}
+
+a:active {
+    color: #DEB887;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+article {
+    background-color: white;
+    box-shadow: 5px 5px 5px -5px #333;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.post-date {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0, .65);
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+img {
+    width: 70%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-content {
+    display: grid;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+@media only screen and (min-width: 760px) {
+    header {
+        height: 100%;
+        width: 300px;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        overflow-x: hidden;
+        padding-top: 30px;
+    }
+    h1 a {
+        margin-right: 20px;
+        
+    }
+    hr {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    nav a {
+        padding: 6px 6px 6px 32px;
+        display: block;
+        margin-right: 20px;
+    }
+
+    main {
+        margin-left: 300px;
+    }
+
+    article {
+        margin-left: 125px;
+        margin-right: 90px;
+    }
+    img {
+        width: 50%;
+        height: auto;
+    }
+}
